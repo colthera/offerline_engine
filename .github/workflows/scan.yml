@@ -1,17 +1,23 @@
 name: scan
+# Runs every hour. GitHub often delays or skips scheduled runs for hours, so each run starts the next one
+# itself: after scanning it waits until :07 of the next hour, then starts a new run. The schedule below is only
+# a backup that restarts the chain if it ever breaks. This repo is public, so the minutes are free.
 on:
   schedule:
-    - cron: "7 * * * *"   # every hour at :07 (off the top of the hour, when GitHub is busiest)
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: scan
   cancel-in-progress: false
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 75
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,16 +26,24 @@ jobs:
       - name: Load last scan
         run: |
           mkdir -p prev out
-          if git fetch --depth=1 origin data 2>/dev/null; then
+          if git fetch --depth=1 origin data:refs/remotes/origin/data 2>/dev/null; then
             for f in jobs.json health.json history.jsonl; do git show origin/data:$f > prev/$f 2>/dev/null || true; done
             cp prev/history.jsonl out/history.jsonl 2>/dev/null || true
           fi
+      - name: Skip if the last scan is under 40 minutes old
+        id: fresh
+        run: |
+          age=$(node -e "try{const h=require('./prev/health.json');console.log(Math.round((Date.now()-Date.parse(h.scannedAt))/60000))}catch{console.log(999)}")
+          echo "Last scan was $age minutes ago"
+          if [ "$age" -lt 40 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
       - name: Scan every board
+        if: steps.fresh.outputs.skip != 'true'
         run: node scan.mjs
       - name: Show report
-        if: always()
+        if: steps.fresh.outputs.skip != 'true'
         run: cat out/report.md >> "$GITHUB_STEP_SUMMARY" || true
       - name: Publish results to the data branch
+        if: steps.fresh.outputs.skip != 'true'
         run: |
           cd out
           git init -q -b data
@@ -38,3 +52,15 @@ jobs:
           git add -A
           git commit -qm "scan $(date -u +%FT%TZ)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data
+      - name: Start the next run at :07 next hour
+        if: always()
+        run: |
+          others() { gh run list -R "${{ github.repository }}" -w scan.yml --json databaseId,status \
+            --jq "[.[] | select((.status==\"queued\" or .status==\"in_progress\" or .status==\"waiting\" or .status==\"pending\") and .databaseId != ${{ github.run_id }})] | length"; }
+          if [ "$(others)" != "0" ]; then echo "Another run is already queued; it continues the chain."; exit 0; fi
+          now=$(date -u +%s); next=$(( now / 3600 * 3600 + 420 ))
+          [ $next -le $(( now + 60 )) ] && next=$(( next + 3600 ))
+          wait=$(( next - now ))
+          echo "Waiting $wait seconds"; sleep $wait
+          if [ "$(others)" != "0" ]; then echo "Another run is already queued; it continues the chain."; exit 0; fi
+          gh workflow run scan.yml -R "${{ github.repository }}" --ref main

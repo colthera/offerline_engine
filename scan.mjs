@@ -3,6 +3,8 @@
 //   out/health.json  one line per board: ok/failed, HTTP status, time, job counts
 // No keys, no Claude usage. Node 20+, no dependencies.
 import fs from 'node:fs';
+import { AsyncLocalStorage } from 'node:async_hooks';
+const ctx = new AsyncLocalStorage();   // per-board request count and slowest single response
 
 const CATALOG = JSON.parse(fs.readFileSync('catalog.json', 'utf8'));
 const PREV = fs.existsSync('prev/jobs.json') ? JSON.parse(fs.readFileSync('prev/jobs.json', 'utf8')) : { jobs: [] };
@@ -14,7 +16,8 @@ const UA = 'Mozilla/5.0 (compatible; OfferlineScanner/0.1; +https://github.com/o
 
 const STATES = 'alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|washington|west virginia|wisconsin|wyoming|district of columbia';
 const ABBR = 'AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC';
-const US = new RegExp(`united states|\\busa?\\b|u\\.s\\.|,\\s*(${ABBR})\\b|\\b(${ABBR})\\s*[-,]|\\b(${STATES})\\b|\\bUS[- ]`, 'i');
+const CITIES = 'new york|nyc|san francisco|bay area|seattle|bellevue|redmond|kirkland|boston|cambridge|chicago|austin|dallas|houston|denver|boulder|atlanta|los angeles|san diego|san jose|santa clara|sunnyvale|palo alto|mountain view|menlo park|irvine|portland|phoenix|scottsdale|salt lake|lehi|miami|tampa|orlando|charlotte|raleigh|durham|nashville|minneapolis|detroit|pittsburgh|philadelphia|baltimore|columbus|cincinnati|cleveland|indianapolis|kansas city|st\\.? louis|omaha|milwaukee|madison|richmond|arlington|reston|mclean|herndon|washington,? d\\.?c|jersey city|stamford|hartford|providence|newark|princeton|sacramento|oakland|plano|irving|frisco|fort worth|san antonio|las vegas|albuquerque|boise|honolulu|anchorage';
+const US = new RegExp(`united states|\\busa?\\b|u\\.s\\.|,\\s*(${ABBR})\\b|\\b(${ABBR})\\s*[-,]|\\b(${STATES})\\b|\\bUS[- ]|\\b(${CITIES})\\b`, 'i');
 const NOT_US = /canada|toronto|vancouver|montreal|ontario|british columbia|united kingdom|\buk\b|london|dublin|india|bengaluru|bangalore|hyderabad|pune|mexico|brazil|germany|france|ireland|singapore|japan|australia|china|poland|netherlands|spain|israel|philippines|costa rica|romania|hungary|czech|argentina|colombia|korea/i;
 const SURE_US = new RegExp(`united states|\\busa\\b|u\\.s\\.|\\b(${STATES})\\b`, 'i');
 // A job is US when any of its locations is. A part naming another country counts only if it also names a US state.
@@ -24,12 +27,25 @@ const isUS = loc => String(loc || '').split(/;|\|/).some(usPart);
 const strip = h => String(h || '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 
 let requests = 0;
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+// One request. A 429 (too many requests), 5xx or timeout is retried twice, after 3s and 10s.
 async function call(url, opts = {}, kind = 'json') {
-  requests++;
-  const r = await fetch(url, { ...opts, signal: AbortSignal.timeout(20000),
-    headers: { 'User-Agent': UA, Accept: kind === 'json' ? 'application/json' : 'text/html', 'Accept-Language': 'en-US', ...(opts.headers || {}) } });
-  if (!r.ok) { const e = new Error(`HTTP ${r.status}`); e.status = r.status; throw e; }
-  return kind === 'json' ? r.json() : r.text();
+  for (let attempt = 0; ; attempt++) {
+    requests++; const st = ctx.getStore(); if (st) st.req++;
+    const t = Date.now();
+    try {
+      const r = await fetch(url, { ...opts, signal: AbortSignal.timeout(20000),
+        headers: { 'User-Agent': UA, Accept: kind === 'json' ? 'application/json' : 'text/html', 'Accept-Language': 'en-US', ...(opts.headers || {}) } });
+      if (st) st.maxMs = Math.max(st.maxMs, Date.now() - t);
+      if (!r.ok) { const e = new Error(`HTTP ${r.status}`); e.status = r.status; throw e; }
+      return kind === 'json' ? await r.json() : await r.text();
+    } catch (e) {
+      if (st) { st.maxMs = Math.max(st.maxMs, Date.now() - t); if (e.status === 429) st.r429++; }
+      const retry = e.status === 429 || e.status >= 500 || e.name === 'TimeoutError' || /timeout|fetch failed/i.test(e.message);
+      if (!retry || attempt >= 2) throw e;
+      await sleep(attempt ? 10000 : 3000);
+    }
+  }
 }
 const post = (url, body, headers = {}) => call(url, { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: JSON.stringify(body) });
 
@@ -136,31 +152,35 @@ const boards = CATALOG.filter(c => R[c.method]);
 const health = [], jobs = [];
 
 async function scanOne(c) {
-  const t0 = Date.now(), before = requests;
-  try {
+  const t0 = Date.now(), st = { req: 0, maxMs: 0, r429: 0 };
+  return ctx.run(st, async () => { try {
     const list = await R[c.method](c);
     const us = list.filter(j => isUS(j.loc));
+    const notUS = [...new Set(list.filter(j => !isUS(j.loc)).map(j => j.loc || '(blank)'))].slice(0, 6);
     for (const j of us) {
       const k = key(c, j.id);
       jobs.push({ key: k, company: c.name, title: strip(j.title), loc: j.loc || '', url: j.url, posted: j.posted || null, firstSeen: firstSeen.get(k) || NOW });
     }
-    health.push({ name: c.name, method: c.method, ok: true, ms: Date.now() - t0, requests: requests - before, read: list.length, us: us.length, total: c._total ?? list.length });
+    health.push({ name: c.name, method: c.method, ok: true, ms: Date.now() - t0, slowestMs: st.maxMs, requests: st.req, retried429: st.r429, read: list.length, us: us.length, total: c._total ?? list.length, notUS });
   } catch (e) {
-    health.push({ name: c.name, method: c.method, ok: false, ms: Date.now() - t0, requests: requests - before, status: e.status || null, error: String(e.message || e).slice(0, 120) });
-  }
+    health.push({ name: c.name, method: c.method, ok: false, ms: Date.now() - t0, slowestMs: st.maxMs, requests: st.req, retried429: st.r429, status: e.status || null, error: String(e.message || e).slice(0, 120) });
+  } });
 }
 
 // Run boards in parallel, but never two at once on the same host (spreads the load on Workday and Oracle).
-const queue = [...boards], busy = new Set();
-const hostOf = c => c.host || c.method;
+// Workday rate-limits per data center (wd1, wd5, ...), not per company, so at most 3 boards per data center at once.
+const queue = [...boards], busy = new Map();
+const LIMIT = { workday: 3 };
+const laneOf = c => c.method === 'workday' ? 'wd:' + (c.host.split('.')[1] || '') : (c.host || c.method + ':' + (c.slug || c.name));
+const room = c => (busy.get(laneOf(c)) || 0) < (LIMIT[c.method] || 1);
 async function worker() {
   while (queue.length) {
-    const i = queue.findIndex(c => !busy.has(hostOf(c)) || !c.host);
-    if (i < 0) { await new Promise(r => setTimeout(r, 50)); continue; }
-    const [c] = queue.splice(i, 1);
-    busy.add(hostOf(c));
+    const i = queue.findIndex(room);
+    if (i < 0) { await sleep(50); continue; }
+    const [c] = queue.splice(i, 1), lane = laneOf(c);
+    busy.set(lane, (busy.get(lane) || 0) + 1);
     await scanOne(c);
-    busy.delete(hostOf(c));
+    busy.set(lane, busy.get(lane) - 1);
   }
 }
 const started = Date.now();
@@ -180,7 +200,7 @@ for (const j of PREV.jobs) {
 
 const prevHealth = fs.existsSync('prev/health.json') ? JSON.parse(fs.readFileSync('prev/health.json', 'utf8')) : { boards: [] };
 const wasSlow = new Set(prevHealth.boards.filter(b => b.slow).map(b => b.name));
-for (const h of health) { h.slow = h.ms > SLOW_MS; h.dropCandidate = h.slow && wasSlow.has(h.name); }
+for (const h of health) { h.slow = h.slowestMs > SLOW_MS; h.dropCandidate = h.slow && wasSlow.has(h.name); }
 health.sort((a, b) => a.name.localeCompare(b.name));
 
 fs.mkdirSync('out', { recursive: true });
@@ -199,7 +219,9 @@ const lines = [
   `${summary.ok} of ${summary.boards} boards read in ${summary.seconds}s with ${requests} requests. ${summary.usJobs} US jobs, ${summary.newJobs} new.`,
   '', `**Failed (${fail.length})** · by reason: ${Object.entries(byStatus).map(([k, v]) => `${k} ×${v}`).join(', ') || 'none'}`,
   ...fail.map(h => `- ${h.name} (${h.method}): ${h.error}`),
-  '', `**Slower than ${SLOW_MS / 1000}s (${slow.length})**`, ...slow.map(h => `- ${h.name} (${h.method}): ${(h.ms / 1000).toFixed(1)}s${h.dropCandidate ? ' · slow twice in a row' : ''}`),
+  '', `**Read fine but under 20 US jobs (${health.filter(h => h.ok && h.us < 20).length})**`,
+  ...health.filter(h => h.ok && h.us < 20).map(h => `- ${h.name} (${h.method}): ${h.us} US of ${h.read} read · other locations: ${(h.notUS || []).join(' / ')}`),
+  '', `**A response slower than ${SLOW_MS / 1000}s (${slow.length})**`, ...slow.map(h => `- ${h.name} (${h.method}): ${(h.slowestMs / 1000).toFixed(1)}s${h.dropCandidate ? ' · slow twice in a row' : ''}`),
 ];
 fs.writeFileSync('out/report.md', lines.join('\n') + '\n');
 console.log(lines.join('\n'));

@@ -1,0 +1,4748 @@
+[
+ {
+  "name": "Microsoft",
+  "method": "microsoft",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "Nationwide: pcsx search with location=United%20States (348 PM roles; remote flag adds none)"
+ },
+ {
+  "name": "Anthropic",
+  "method": "greenhouse",
+  "slug": "anthropic",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 534 US"
+ },
+ {
+  "name": "OpenAI",
+  "method": "ashby",
+  "slug": "openai",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 654 US"
+ },
+ {
+  "name": "Salesforce",
+  "method": "workday",
+  "host": "salesforce.wd12.myworkdayjobs.com",
+  "tenant": "salesforce",
+  "site": "External_Career_Site",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 1,577 total"
+ },
+ {
+  "name": "T-Mobile",
+  "method": "workday",
+  "host": "tmobile.wd1.myworkdayjobs.com",
+  "tenant": "tmobile",
+  "site": "External",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 2,000+ total"
+ },
+ {
+  "name": "Nvidia",
+  "method": "workday",
+  "host": "nvidia.wd5.myworkdayjobs.com",
+  "tenant": "nvidia",
+  "site": "NVIDIAExternalCareerSite",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 2,000+ total"
+ },
+ {
+  "name": "Adobe",
+  "method": "workday",
+  "host": "adobe.wd5.myworkdayjobs.com",
+  "tenant": "adobe",
+  "site": "external_experienced",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 257 total"
+ },
+ {
+  "name": "Zillow",
+  "method": "workday",
+  "host": "zillow.wd5.myworkdayjobs.com",
+  "tenant": "zillow",
+  "site": "Zillow_Group_External",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 201 total"
+ },
+ {
+  "name": "Snowflake",
+  "method": "ashby",
+  "slug": "snowflake",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 257 US"
+ },
+ {
+  "name": "DoorDash",
+  "method": "greenhouse",
+  "slug": "doordashusa",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 435 US"
+ },
+ {
+  "name": "Stripe",
+  "method": "greenhouse",
+  "slug": "stripe",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 354 US"
+ },
+ {
+  "name": "Pinterest",
+  "method": "greenhouse",
+  "slug": "pinterest",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 135 US"
+ },
+ {
+  "name": "Airbnb",
+  "method": "greenhouse",
+  "slug": "airbnb",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 98 US"
+ },
+ {
+  "name": "Databricks",
+  "method": "greenhouse",
+  "slug": "databricks",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 491 US"
+ },
+ {
+  "name": "Coinbase",
+  "method": "greenhouse",
+  "slug": "coinbase",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 234 US"
+ },
+ {
+  "name": "Robinhood",
+  "method": "greenhouse",
+  "slug": "robinhood",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 127 US"
+ },
+ {
+  "name": "Block",
+  "method": "greenhouse",
+  "slug": "block",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 127 US"
+ },
+ {
+  "name": "SoFi",
+  "method": "greenhouse",
+  "slug": "sofi",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 43 US"
+ },
+ {
+  "name": "Coupang",
+  "method": "greenhouse",
+  "slug": "coupang",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 42 US"
+ },
+ {
+  "name": "Qualtrics",
+  "method": "greenhouse",
+  "slug": "qualtrics",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 85 US"
+ },
+ {
+  "name": "Smartsheet",
+  "method": "greenhouse",
+  "slug": "smartsheet",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 38 US"
+ },
+ {
+  "name": "Axon",
+  "method": "greenhouse",
+  "slug": "axon",
+  "industry": "Government contractor",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 401 US"
+ },
+ {
+  "name": "Remitly",
+  "method": "workday",
+  "host": "remitly.wd5.myworkdayjobs.com",
+  "tenant": "remitly",
+  "site": "Remitly_Careers",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 171 total"
+ },
+ {
+  "name": "F5",
+  "method": "workday",
+  "host": "ffive.wd5.myworkdayjobs.com",
+  "tenant": "ffive",
+  "site": "f5jobs",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 293 total"
+ },
+ {
+  "name": "Reddit",
+  "method": "greenhouse",
+  "slug": "reddit",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 146 US"
+ },
+ {
+  "name": "Twilio",
+  "method": "greenhouse",
+  "slug": "twilio",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 121 US"
+ },
+ {
+  "name": "MongoDB",
+  "method": "greenhouse",
+  "slug": "mongodb",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 113 US"
+ },
+ {
+  "name": "Lyft",
+  "method": "greenhouse",
+  "slug": "lyft",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 84 US"
+ },
+ {
+  "name": "Dropbox",
+  "method": "greenhouse",
+  "slug": "dropbox",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 38 US"
+ },
+ {
+  "name": "Flexport",
+  "method": "greenhouse",
+  "slug": "flexport",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 81 US"
+ },
+ {
+  "name": "The Trade Desk",
+  "method": "greenhouse",
+  "slug": "thetradedesk",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 68 US"
+ },
+ {
+  "name": "Epic Games",
+  "method": "greenhouse",
+  "slug": "epicgames",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 55 US"
+ },
+ {
+  "name": "Moloco",
+  "method": "greenhouse",
+  "slug": "moloco",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 32 US"
+ },
+ {
+  "name": "Okta",
+  "method": "greenhouse",
+  "slug": "okta",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 157 US"
+ },
+ {
+  "name": "Scale AI",
+  "method": "greenhouse",
+  "slug": "scaleai",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 122 US"
+ },
+ {
+  "name": "Discord",
+  "method": "greenhouse",
+  "slug": "discord",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 26 US"
+ },
+ {
+  "name": "Figma",
+  "method": "greenhouse",
+  "slug": "figma",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 93 US"
+ },
+ {
+  "name": "GitLab",
+  "method": "greenhouse",
+  "slug": "gitlab",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 229 US"
+ },
+ {
+  "name": "Ramp",
+  "method": "ashby",
+  "slug": "ramp",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 165 US"
+ },
+ {
+  "name": "Snap",
+  "method": "workday",
+  "host": "snapchat.wd1.myworkdayjobs.com",
+  "tenant": "snapchat",
+  "site": "snap",
+  "url": "https://careers.snap.com/jobs?q=program%20manager&location=Seattle",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 215 total"
+ },
+ {
+  "name": "Chewy",
+  "method": "workday",
+  "host": "chewy.wd5.myworkdayjobs.com",
+  "tenant": "chewy",
+  "site": "External",
+  "url": "https://careers.chewy.com/us/en/search-results?keywords=program%20manager",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 237 total"
+ },
+ {
+  "name": "Expedia",
+  "method": "workday",
+  "host": "expedia.wd108.myworkdayjobs.com",
+  "tenant": "expedia",
+  "site": "search",
+  "url": "https://careers.expediagroup.com/jobs/?keyword=program%20manager&location=Seattle",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 115 total"
+ },
+ {
+  "name": "eBay",
+  "method": "workday",
+  "host": "ebay.wd5.myworkdayjobs.com",
+  "tenant": "ebay",
+  "site": "apply",
+  "url": "https://jobs.ebayinc.com/us/en/search-results?keywords=program%20manager",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 283 total"
+ },
+ {
+  "name": "Nordstrom",
+  "method": "workday",
+  "host": "nordstrom.wd501.myworkdayjobs.com",
+  "tenant": "nordstrom",
+  "site": "nordstrom_careers",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 1,251 total"
+ },
+ {
+  "name": "ServiceNow",
+  "method": "smartrecruiters",
+  "slug": "ServiceNow",
+  "url": "https://careers.servicenow.com/jobs/?search=program%20manager&location=Kirkland",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 466 US"
+ },
+ {
+  "name": "Atlassian",
+  "method": "atlassian",
+  "url": "https://www.atlassian.com/company/careers/all-jobs?search=program%20manager",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 354 total"
+ },
+ {
+  "name": "Oracle",
+  "method": "oraclehcm",
+  "host": "eeho.fa.us2.oraclecloud.com",
+  "site": "CX_45001",
+  "jobUrl": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/{id}",
+  "url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/requisitions?keyword=program%20manager&location=Seattle",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 2,845 total"
+ },
+ {
+  "name": "Uber",
+  "method": "oraclehcm",
+  "host": "iaziqy.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "jobUrl": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/{id}",
+  "url": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/jobs?keyword=program%20manager&location=Seattle",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 811 total"
+ },
+ {
+  "name": "Docusign",
+  "method": "jibe",
+  "host": "careers.docusign.com",
+  "url": "https://careers.docusign.com/careers-home/jobs?keywords=program%20manager&location=Seattle",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "v2 re-checked: 149 (keyword \"manager\")"
+ },
+ {
+  "name": "TikTok / ByteDance",
+  "method": "tiktok",
+  "url": "https://lifeattiktok.com/search?keyword=program%20manager%20seattle",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "Nationwide: country filter (CN_6) returns 0; fetch all and keep jobs whose city_info chain contains CN_6"
+ },
+ {
+  "name": "Google",
+  "method": "googlehtml",
+  "url": "https://www.google.com/about/careers/applications/jobs/results/?q=program%20manager&location=Seattle%20WA%2C%20USA&location=Kirkland%20WA%2C%20USA&sort_by=date",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "Nationwide: google.com/about/careers/applications/jobs/results/?location=United%20States&q={query} (verified)"
+ },
+ {
+  "name": "Apple",
+  "method": "applehtml",
+  "url": "https://jobs.apple.com/en-us/search?search=program%20manager&location=seattle-SEA",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 0,
+  "note": "Nationwide: jobs.apple.com/en-us/search?location=united-states-USA&search={query} (verified)"
+ },
+ {
+  "method": "page",
+  "name": "Meta",
+  "url": "https://www.metacareers.com/jobsearch/?q=program%20manager&offices[0]=Seattle%2C%20WA&offices[1]=Bellevue%2C%20WA&offices[2]=Redmond%2C%20WA&offices[3]=Remote%2C%20US",
+  "industry": "Tech",
+  "verified": null,
+  "batch": 0,
+  "note": "No nationwide link found (search rate-limited); stays evening sweep"
+ },
+ {
+  "method": "page",
+  "name": "Starbucks",
+  "url": "https://careers.starbucks.com/discover-opportunities/?search=program%20manager&location=Seattle",
+  "industry": "Retail & consumer",
+  "verified": null,
+  "batch": 0,
+  "note": "No nationwide link found (Eightfold blocks API); stays evening sweep"
+ },
+ {
+  "method": "alerts_only",
+  "name": "LinkedIn",
+  "industry": "Tech",
+  "verified": null,
+  "batch": 0,
+  "note": "v2 alerts only (LinkedIn job alerts); no board to check"
+ },
+ {
+  "method": "page",
+  "name": "Indeed",
+  "url": "https://www.indeed.com/cmp/Indeed/jobs?q=program%20manager",
+  "industry": "Tech",
+  "verified": null,
+  "batch": 0,
+  "note": "v2 career-site only; not machine-checked"
+ },
+ {
+  "method": "page",
+  "name": "Lululemon",
+  "url": "https://careers.lululemon.com/en_US/careers/SearchJobs/program%20manager",
+  "industry": "Retail & consumer",
+  "verified": null,
+  "batch": 0,
+  "note": "v2 career-site only; not machine-checked"
+ },
+ {
+  "name": "Datadog",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "datadog"
+ },
+ {
+  "name": "Gusto",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "gusto"
+ },
+ {
+  "name": "Asana",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "asana"
+ },
+ {
+  "name": "Duolingo",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "duolingo"
+ },
+ {
+  "name": "Elastic",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "elastic"
+ },
+ {
+  "name": "Toast",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "toast"
+ },
+ {
+  "name": "Vercel",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "vercel"
+ },
+ {
+  "name": "PagerDuty",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "pagerduty"
+ },
+ {
+  "name": "Zscaler",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "zscaler"
+ },
+ {
+  "name": "Notion",
+  "method": "ashby",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "notion"
+ },
+ {
+  "name": "Perplexity",
+  "method": "ashby",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "perplexity"
+ },
+ {
+  "name": "Cohere",
+  "method": "ashby",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "cohere"
+ },
+ {
+  "name": "Vanta",
+  "method": "ashby",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "vanta"
+ },
+ {
+  "name": "Intel",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "intel.wd1.myworkdayjobs.com",
+  "tenant": "intel",
+  "site": "External"
+ },
+ {
+  "name": "Workday",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "workday.wd5.myworkdayjobs.com",
+  "tenant": "workday",
+  "site": "Workday"
+ },
+ {
+  "name": "CrowdStrike",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "crowdstrike.wd5.myworkdayjobs.com",
+  "tenant": "crowdstrike",
+  "site": "crowdstrikecareers"
+ },
+ {
+  "name": "Affirm",
+  "method": "greenhouse",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "affirm"
+ },
+ {
+  "name": "Chime",
+  "method": "greenhouse",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "chime"
+ },
+ {
+  "name": "Brex",
+  "method": "greenhouse",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "brex"
+ },
+ {
+  "name": "Carta",
+  "method": "greenhouse",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "carta"
+ },
+ {
+  "name": "Betterment",
+  "method": "greenhouse",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "betterment"
+ },
+ {
+  "name": "Capital One",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "capitalone.wd12.myworkdayjobs.com",
+  "tenant": "capitalone",
+  "site": "Capital_One"
+ },
+ {
+  "name": "Mastercard",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "mastercard.wd1.myworkdayjobs.com",
+  "tenant": "mastercard",
+  "site": "CorporateCareers"
+ },
+ {
+  "name": "Wells Fargo",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "wf.wd1.myworkdayjobs.com",
+  "tenant": "wf",
+  "site": "WellsFargoJobs"
+ },
+ {
+  "name": "Bank of America",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "ghr.wd1.myworkdayjobs.com",
+  "tenant": "ghr",
+  "site": "Lateral-US"
+ },
+ {
+  "name": "Oscar Health",
+  "method": "greenhouse",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "oscar"
+ },
+ {
+  "name": "Hims & Hers",
+  "method": "ashby",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "hims-and-hers"
+ },
+ {
+  "name": "CVS Health",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "cvshealth.wd1.myworkdayjobs.com",
+  "tenant": "cvshealth",
+  "site": "CVS_Health_Careers"
+ },
+ {
+  "name": "Pfizer",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "pfizer.wd1.myworkdayjobs.com",
+  "tenant": "pfizer",
+  "site": "PfizerCareers"
+ },
+ {
+  "name": "Medtronic",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "medtronic.wd1.myworkdayjobs.com",
+  "tenant": "medtronic",
+  "site": "MedtronicCareers"
+ },
+ {
+  "name": "Humana",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "humana.wd5.myworkdayjobs.com",
+  "tenant": "humana",
+  "site": "Humana_External_Career_Site"
+ },
+ {
+  "name": "Instacart",
+  "method": "greenhouse",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "instacart"
+ },
+ {
+  "name": "Peloton",
+  "method": "greenhouse",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "peloton"
+ },
+ {
+  "name": "Target",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "target.wd5.myworkdayjobs.com",
+  "tenant": "target",
+  "site": "targetcareers"
+ },
+ {
+  "name": "Nike",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "nike.wd1.myworkdayjobs.com",
+  "tenant": "nike",
+  "site": "nke"
+ },
+ {
+  "name": "Samsara",
+  "method": "greenhouse",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "samsara"
+ },
+ {
+  "name": "Bosch",
+  "method": "smartrecruiters",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "BoschGroup"
+ },
+ {
+  "name": "Boeing",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "boeing.wd1.myworkdayjobs.com",
+  "tenant": "boeing",
+  "site": "EXTERNAL_CAREERS"
+ },
+ {
+  "name": "Accenture",
+  "method": "workday",
+  "industry": "Consulting",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "accenture.wd103.myworkdayjobs.com",
+  "tenant": "accenture",
+  "site": "AccentureCareers"
+ },
+ {
+  "name": "PwC",
+  "method": "workday",
+  "industry": "Consulting",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "pwc.wd3.myworkdayjobs.com",
+  "tenant": "pwc",
+  "site": "Global_Experienced_Careers"
+ },
+ {
+  "name": "Roblox",
+  "method": "greenhouse",
+  "industry": "Media",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "roblox"
+ },
+ {
+  "name": "Twitch",
+  "method": "greenhouse",
+  "industry": "Media",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "twitch"
+ },
+ {
+  "name": "Spotify",
+  "method": "lever",
+  "industry": "Media",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "spotify"
+ },
+ {
+  "name": "Chevron",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "chevron.wd5.myworkdayjobs.com",
+  "tenant": "chevron",
+  "site": "jobs"
+ },
+ {
+  "name": "Navan",
+  "method": "greenhouse",
+  "industry": "Travel & auto",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "tripactions"
+ },
+ {
+  "name": "Waymo",
+  "method": "greenhouse",
+  "industry": "Travel & auto",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "waymo"
+ },
+ {
+  "name": "Lucid Motors",
+  "method": "greenhouse",
+  "industry": "Travel & auto",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "lucidmotors"
+ },
+ {
+  "name": "General Motors",
+  "method": "workday",
+  "industry": "Travel & auto",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "host": "generalmotors.wd5.myworkdayjobs.com",
+  "tenant": "generalmotors",
+  "site": "Careers_GM"
+ },
+ {
+  "name": "Anduril",
+  "method": "greenhouse",
+  "industry": "Government contractor",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "andurilindustries"
+ },
+ {
+  "name": "Palantir",
+  "method": "lever",
+  "industry": "Government contractor",
+  "verified": "2026-11-11",
+  "batch": 1,
+  "slug": "palantir"
+ },
+ {
+  "name": "Walmart",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 1,
+  "note": "2,000+ roles worldwide incl. stores; title filters remove store roles",
+  "host": "walmart.wd504.myworkdayjobs.com",
+  "tenant": "walmart",
+  "site": "WalmartExternal"
+ },
+ {
+  "name": "Hewlett Packard Enterprise",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "hpe.wd5.myworkdayjobs.com",
+  "tenant": "hpe",
+  "site": "Jobsathpe"
+ },
+ {
+  "name": "Micron Technology",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "micron.wd1.myworkdayjobs.com",
+  "tenant": "micron",
+  "site": "External"
+ },
+ {
+  "name": "Cadence Design Systems",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "cadence.wd1.myworkdayjobs.com",
+  "tenant": "cadence",
+  "site": "External_Careers"
+ },
+ {
+  "name": "Pure Storage (Everpure)",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings; US locations written with full state names",
+  "slug": "purestorage"
+ },
+ {
+  "name": "Western Digital",
+  "method": "smartrecruiters",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = US postings",
+  "slug": "WesternDigital"
+ },
+ {
+  "name": "AMD",
+  "method": "jibe",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Jibe site, not iCIMS. Count = 'manager' search",
+  "host": "careers.amd.com"
+ },
+ {
+  "name": "Amazon",
+  "method": "amazon",
+  "industry": "Tech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Nationwide: /en/search.json?country=USA&base_query={query} (781 PM roles)",
+  "host": "www.amazon.jobs"
+ },
+ {
+  "name": "Morgan Stanley",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "ms.wd5.myworkdayjobs.com",
+  "tenant": "ms",
+  "site": "External"
+ },
+ {
+  "name": "PNC",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "pnc.wd5.myworkdayjobs.com",
+  "tenant": "pnc",
+  "site": "External"
+ },
+ {
+  "name": "Truist",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "truist.wd1.myworkdayjobs.com",
+  "tenant": "truist",
+  "site": "Careers"
+ },
+ {
+  "name": "PayPal",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "paypal.wd1.myworkdayjobs.com",
+  "tenant": "paypal",
+  "site": "jobs"
+ },
+ {
+  "name": "State Street",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "statestreet.wd1.myworkdayjobs.com",
+  "tenant": "statestreet",
+  "site": "Global"
+ },
+ {
+  "name": "Eli Lilly",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "lilly.wd115.myworkdayjobs.com",
+  "tenant": "lilly",
+  "site": "LLY"
+ },
+ {
+  "name": "Merck & Co.",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "msd.wd5.myworkdayjobs.com",
+  "tenant": "msd",
+  "site": "SearchJobs"
+ },
+ {
+  "name": "Amgen",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "amgen.wd1.myworkdayjobs.com",
+  "tenant": "amgen",
+  "site": "Careers"
+ },
+ {
+  "name": "Gilead Sciences",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "gilead.wd1.myworkdayjobs.com",
+  "tenant": "gilead",
+  "site": "gileadcareers"
+ },
+ {
+  "name": "Bristol Myers Squibb",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "bristolmyerssquibb.wd5.myworkdayjobs.com",
+  "tenant": "bristolmyerssquibb",
+  "site": "BMS"
+ },
+ {
+  "name": "The Cigna Group",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "cigna.wd5.myworkdayjobs.com",
+  "tenant": "cigna",
+  "site": "CignaCareers"
+ },
+ {
+  "name": "Centene",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "centene.wd5.myworkdayjobs.com",
+  "tenant": "centene",
+  "site": "Centene_External"
+ },
+ {
+  "name": "Regeneron",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "regeneron.wd1.myworkdayjobs.com",
+  "tenant": "regeneron",
+  "site": "Careers"
+ },
+ {
+  "name": "3M",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "3m.wd1.myworkdayjobs.com",
+  "tenant": "3m",
+  "site": "Search"
+ },
+ {
+  "name": "Procter & Gamble",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "pg.wd5.myworkdayjobs.com",
+  "tenant": "pg",
+  "site": "1000"
+ },
+ {
+  "name": "The Coca-Cola Company",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "coke.wd1.myworkdayjobs.com",
+  "tenant": "coke",
+  "site": "coca-cola-careers"
+ },
+ {
+  "name": "PepsiCo",
+  "method": "jibe",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Jibe site. Count = 'manager' search",
+  "host": "pepsicojobs.com"
+ },
+ {
+  "name": "Gartner",
+  "method": "workday",
+  "industry": "Consulting",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "gartner.wd5.myworkdayjobs.com",
+  "tenant": "gartner",
+  "site": "EXT"
+ },
+ {
+  "name": "Shell",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "shell.wd3.myworkdayjobs.com",
+  "tenant": "shell",
+  "site": "ShellCareers"
+ },
+ {
+  "name": "Duke Energy",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations",
+  "host": "dukeenergy.wd1.myworkdayjobs.com",
+  "tenant": "dukeenergy",
+  "site": "Search"
+ },
+ {
+  "name": "NBCUniversal",
+  "method": "smartrecruiters",
+  "industry": "Media",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = US postings",
+  "slug": "NBCUniversal3"
+ },
+ {
+  "name": "Marriott International",
+  "method": "oraclehcm",
+  "industry": "Travel & auto",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Oracle site. Count = 'manager' search, includes hotel roles. Response 2.5 s",
+  "host": "ejwl.fa.us2.oraclecloud.com",
+  "site": "CX",
+  "jobUrl": "https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/{id}"
+ },
+ {
+  "name": "RTX",
+  "method": "workday",
+  "industry": "Government contractor",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations. Counts toward the cap of 10",
+  "host": "globalhr.wd5.myworkdayjobs.com",
+  "tenant": "globalhr",
+  "site": "REC_RTX_Ext_Gateway"
+ },
+ {
+  "name": "Northrop Grumman",
+  "method": "workday",
+  "industry": "Government contractor",
+  "verified": "2026-11-11",
+  "batch": 2,
+  "note": "Count = all postings, all locations. Counts toward the cap of 10",
+  "host": "ngc.wd1.myworkdayjobs.com",
+  "tenant": "ngc",
+  "site": "northrop_grumman_external_site"
+ },
+ {
+  "name": "IBM",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://www.ibm.com/careers/search",
+  "verified": null,
+  "batch": 2,
+  "note": "ChatGPT est. 479 US roles; career site only"
+ },
+ {
+  "name": "Cisco",
+  "method": "workday",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 2,
+  "note": "1,481 roles worldwide",
+  "host": "cisco.wd5.myworkdayjobs.com",
+  "tenant": "cisco",
+  "site": "Cisco_Careers"
+ },
+ {
+  "name": "Dell Technologies",
+  "method": "oraclehcm",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 2,
+  "note": "578 roles worldwide; Oracle on Dell domain",
+  "host": "enterpriseplatform.dell.com",
+  "site": "careers"
+ },
+ {
+  "name": "Autodesk",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://jobs.autodesk.com/careers",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "JPMorgan Chase",
+  "method": "oraclehcm",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 2,
+  "note": "7,023 roles worldwide",
+  "host": "jpmc.fa.oraclecloud.com",
+  "site": "CX_1001"
+ },
+ {
+  "name": "Citi",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 2,
+  "note": "2,000+ roles worldwide",
+  "host": "citi.wd5.myworkdayjobs.com",
+  "tenant": "citi",
+  "site": "2"
+ },
+ {
+  "name": "Caterpillar",
+  "method": "page",
+  "industry": "Logistics & industrial",
+  "url": "https://careers.caterpillar.com/en/jobs/",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "FedEx",
+  "method": "page",
+  "industry": "Logistics & industrial",
+  "url": "https://careers.fedex.com/",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Eaton",
+  "method": "page",
+  "industry": "Logistics & industrial",
+  "url": "https://www.eaton.com/us/en-us/company/careers.html",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Kraft Heinz",
+  "method": "page",
+  "industry": "Retail & consumer",
+  "url": "https://careers.kraftheinzcompany.com/",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Deloitte",
+  "method": "page",
+  "industry": "Consulting",
+  "url": "https://www.deloitte.com/global/en/careers/job-search.html",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "EY",
+  "method": "page",
+  "industry": "Consulting",
+  "url": "https://careers.ey.com/viewalljobs/?locale=en_US",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "BP",
+  "method": "page",
+  "industry": "Energy & utilities",
+  "url": "https://careers.bp.com/professional-careers",
+  "verified": null,
+  "batch": 2,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Netflix",
+  "method": "eightfold",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 2,
+  "note": "241 US roles; needs Eightfold reader",
+  "host": "explore.jobs.netflix.net",
+  "domain": "netflix.com"
+ },
+ {
+  "name": "Ford Motor Company",
+  "method": "oraclehcm",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 2,
+  "note": "912 roles worldwide",
+  "host": "efds.fa.em5.oraclecloud.com",
+  "site": "CX_1"
+ },
+ {
+  "name": "Broadcom",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "broadcom.wd1.myworkdayjobs.com",
+  "tenant": "broadcom",
+  "site": "External_Career"
+ },
+ {
+  "name": "HP Inc.",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "hp.wd5.myworkdayjobs.com",
+  "tenant": "hp",
+  "site": "ExternalCareerSite"
+ },
+ {
+  "name": "Palo Alto Networks",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "paloaltonetworks.wd5.myworkdayjobs.com",
+  "tenant": "paloaltonetworks",
+  "site": "panwexternalcareers"
+ },
+ {
+  "name": "Applied Materials",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "amat.wd1.myworkdayjobs.com",
+  "tenant": "amat",
+  "site": "external"
+ },
+ {
+  "name": "Marvell Technology",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "marvell.wd1.myworkdayjobs.com",
+  "tenant": "marvell",
+  "site": "MarvellCareers"
+ },
+ {
+  "name": "Seagate Technology",
+  "industry": "Tech",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://seagatecareers.com/search/",
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Roku",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "roku"
+ },
+ {
+  "name": "Nutanix",
+  "industry": "Tech",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://careers.nutanix.com/en/jobs/",
+  "note": "ChatGPT est. 269 US roles; career site only"
+ },
+ {
+  "name": "Rubrik",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "rubrik"
+ },
+ {
+  "name": "Braze",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "braze"
+ },
+ {
+  "name": "InterSystems",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "intersystems"
+ },
+ {
+  "name": "Fin (formerly Intercom)",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "intercom"
+ },
+ {
+  "name": "Tailscale",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "tailscale"
+ },
+ {
+  "name": "U.S. Bank",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "usbank.wd1.myworkdayjobs.com",
+  "tenant": "usbank",
+  "site": "US_Bank_Careers"
+ },
+ {
+  "name": "Fidelity Investments",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "fmr.wd1.myworkdayjobs.com",
+  "tenant": "fmr",
+  "site": "FidelityCareers"
+ },
+ {
+  "name": "BlackRock",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "blackrock.wd1.myworkdayjobs.com",
+  "tenant": "blackrock",
+  "site": "BlackRock_Professional"
+ },
+ {
+  "name": "Fiserv",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "fiserv.wd5.myworkdayjobs.com",
+  "tenant": "fiserv",
+  "site": "EXT"
+ },
+ {
+  "name": "TransUnion",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "transunion.wd5.myworkdayjobs.com",
+  "tenant": "transunion",
+  "site": "TransUnion"
+ },
+ {
+  "name": "Adyen",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "adyen"
+ },
+ {
+  "name": "iCapital",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "icapitalnetwork"
+ },
+ {
+  "name": "Abbott",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "abbott.wd5.myworkdayjobs.com",
+  "tenant": "abbott",
+  "site": "abbottcareers"
+ },
+ {
+  "name": "GE HealthCare",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "gehc.wd5.myworkdayjobs.com",
+  "tenant": "gehc",
+  "site": "GEHC_ExternalSite"
+ },
+ {
+  "name": "Stryker",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "stryker.wd1.myworkdayjobs.com",
+  "tenant": "stryker",
+  "site": "StrykerCareers"
+ },
+ {
+  "name": "Baxter",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "baxter.wd1.myworkdayjobs.com",
+  "tenant": "baxter",
+  "site": "baxter"
+ },
+ {
+  "name": "Edwards Lifesciences",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "edwards.wd5.myworkdayjobs.com",
+  "tenant": "edwards",
+  "site": "EdwardsCareers"
+ },
+ {
+  "name": "Biogen",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "biibhr.wd3.myworkdayjobs.com",
+  "tenant": "biibhr",
+  "site": "external"
+ },
+ {
+  "name": "Moderna",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "modernatx.wd1.myworkdayjobs.com",
+  "tenant": "modernatx",
+  "site": "M_tx"
+ },
+ {
+  "name": "Maersk",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "maersk.wd3.myworkdayjobs.com",
+  "tenant": "maersk",
+  "site": "Maersk_Careers"
+ },
+ {
+  "name": "Johnson Controls",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "jci.wd5.myworkdayjobs.com",
+  "tenant": "jci",
+  "site": "JCI"
+ },
+ {
+  "name": "Sysco",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "sysco.wd5.myworkdayjobs.com",
+  "tenant": "sysco",
+  "site": "syscocareers"
+ },
+ {
+  "name": "Trane Technologies",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "tranetechnologies.wd12.myworkdayjobs.com",
+  "tenant": "tranetechnologies",
+  "site": "Trane_Technologies_Careers"
+ },
+ {
+  "name": "Mondel\u0113z International",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "mdlz.wd3.myworkdayjobs.com",
+  "tenant": "mdlz",
+  "site": "External"
+ },
+ {
+  "name": "General Mills",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "genmills.wd1.myworkdayjobs.com",
+  "tenant": "genmills",
+  "site": "GMI_External_Careers"
+ },
+ {
+  "name": "Colgate-Palmolive",
+  "industry": "Retail & consumer",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://jobs.colgate.com/search/",
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Keurig Dr Pepper",
+  "industry": "Retail & consumer",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://careers.keurigdrpepper.com/en/search-jobs",
+  "note": "ChatGPT est. 28+ US roles; career site only"
+ },
+ {
+  "name": "McKinsey & Company",
+  "industry": "Consulting",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://www.mckinsey.com/careers/search-jobs?countries=United+States",
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Boston Consulting Group",
+  "industry": "Consulting",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://careers.bcg.com/global/en/locations/united-states",
+  "note": "ChatGPT est. 95 US roles; career site only"
+ },
+ {
+  "name": "KPMG US",
+  "industry": "Consulting",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://www.kpmguscareers.com/job-search/",
+  "note": "ChatGPT est. 905 US roles; career site only"
+ },
+ {
+  "name": "NextEra Energy",
+  "industry": "Energy & utilities",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://jobs.nexteraenergy.com/viewalljobs",
+  "note": "ChatGPT est. 24+ US roles; career site only"
+ },
+ {
+  "name": "GE Vernova",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "gevernova.wd5.myworkdayjobs.com",
+  "tenant": "gevernova",
+  "site": "Vernova_ExternalSite"
+ },
+ {
+  "name": "Vistra",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "vst.wd5.myworkdayjobs.com",
+  "tenant": "vst",
+  "site": "vistra_careers"
+ },
+ {
+  "name": "Warner Bros. Discovery",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "warnerbros.wd5.myworkdayjobs.com",
+  "tenant": "warnerbros",
+  "site": "global"
+ },
+ {
+  "name": "Hearst",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "hearst"
+ },
+ {
+  "name": "Hilton",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "oraclehcm",
+  "host": "efet.fa.us2.oraclecloud.com",
+  "site": "CX_1009",
+  "jobUrl": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/{id}"
+ },
+ {
+  "name": "Leidos",
+  "industry": "Government contractor",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "leidos.wd5.myworkdayjobs.com",
+  "tenant": "leidos",
+  "site": "External"
+ },
+ {
+  "name": "Booz Allen Hamilton",
+  "industry": "Government contractor",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "bah.wd1.myworkdayjobs.com",
+  "tenant": "bah",
+  "site": "BAH_Jobs"
+ },
+ {
+  "name": "Analog Devices",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "analogdevices.wd1.myworkdayjobs.com",
+  "tenant": "analogdevices",
+  "site": "External"
+ },
+ {
+  "name": "Motorola Solutions",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "motorolasolutions.wd5.myworkdayjobs.com",
+  "tenant": "motorolasolutions",
+  "site": "Careers"
+ },
+ {
+  "name": "KLA",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "kla.wd1.myworkdayjobs.com",
+  "tenant": "kla",
+  "site": "Search"
+ },
+ {
+  "name": "Kyndryl",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "kyndryl.wd5.myworkdayjobs.com",
+  "tenant": "kyndryl",
+  "site": "KyndrylProfessionalCareers"
+ },
+ {
+  "name": "Ingram Micro",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "ingrammicro.wd5.myworkdayjobs.com",
+  "tenant": "ingrammicro",
+  "site": "IngramMicro"
+ },
+ {
+  "name": "Ciena",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "ciena.wd5.myworkdayjobs.com",
+  "tenant": "ciena",
+  "site": "Careers"
+ },
+ {
+  "name": "Lumentum",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "lumentum.wd5.myworkdayjobs.com",
+  "tenant": "lumentum",
+  "site": "LITE"
+ },
+ {
+  "name": "Semtech",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "semtech.wd1.myworkdayjobs.com",
+  "tenant": "semtech",
+  "site": "SemtechCareers"
+ },
+ {
+  "name": "CoreWeave",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "coreweave"
+ },
+ {
+  "name": "Netskope",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "netskope"
+ },
+ {
+  "name": "Fivetran",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "fivetran"
+ },
+ {
+  "name": "Tanium",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "tanium"
+ },
+ {
+  "name": "Fastly",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "fastly"
+ },
+ {
+  "name": "Grafana Labs",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "grafanalabs"
+ },
+ {
+  "name": "Abnormal AI",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "abnormalsecurity"
+ },
+ {
+  "name": "Recorded Future",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "recordedfuture"
+ },
+ {
+  "name": "Barclays",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "barclays.wd3.myworkdayjobs.com",
+  "tenant": "barclays",
+  "site": "External_Career_Site_Barclays"
+ },
+ {
+  "name": "Prudential Financial",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "pru.wd5.myworkdayjobs.com",
+  "tenant": "pru",
+  "site": "Careers"
+ },
+ {
+  "name": "Blackstone",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "blackstone.wd1.myworkdayjobs.com",
+  "tenant": "blackstone",
+  "site": "Blackstone_Careers"
+ },
+ {
+  "name": "Nationwide",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "nationwide.wd1.myworkdayjobs.com",
+  "tenant": "nationwide",
+  "site": "Nationwide_Career"
+ },
+ {
+  "name": "Manulife / John Hancock",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "manulife.wd3.myworkdayjobs.com",
+  "tenant": "manulife",
+  "site": "MFCJH_Jobs"
+ },
+ {
+  "name": "Upstart",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "upstart"
+ },
+ {
+  "name": "Mercury",
+  "industry": "Finance & fintech",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "mercury"
+ },
+ {
+  "name": "Danaher",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "danaher.wd1.myworkdayjobs.com",
+  "tenant": "danaher",
+  "site": "DanaherJobs"
+ },
+ {
+  "name": "Elevance Health",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "elevancehealth.wd1.myworkdayjobs.com",
+  "tenant": "elevancehealth",
+  "site": "ANT"
+ },
+ {
+  "name": "Viatris",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "viatris.wd5.myworkdayjobs.com",
+  "tenant": "viatris",
+  "site": "External"
+ },
+ {
+  "name": "Organon",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "organon.wd5.myworkdayjobs.com",
+  "tenant": "organon",
+  "site": "SearchJobs"
+ },
+ {
+  "name": "Convatec",
+  "industry": "Healthcare companies",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "convatec.wd1.myworkdayjobs.com",
+  "tenant": "convatec",
+  "site": "ConvaTec"
+ },
+ {
+  "name": "Carrier",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "carrier.wd5.myworkdayjobs.com",
+  "tenant": "carrier",
+  "site": "jobs"
+ },
+ {
+  "name": "Dow",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "dow.wd1.myworkdayjobs.com",
+  "tenant": "dow",
+  "site": "ExternalCareers"
+ },
+ {
+  "name": "DuPont",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "dupont.wd5.myworkdayjobs.com",
+  "tenant": "dupont",
+  "site": "Jobs"
+ },
+ {
+  "name": "Otis Worldwide",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "otis.wd504.myworkdayjobs.com",
+  "tenant": "otis",
+  "site": "REC_Ext_Gateway"
+ },
+ {
+  "name": "Stanley Black & Decker",
+  "industry": "Logistics & industrial",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "sbdinc.wd1.myworkdayjobs.com",
+  "tenant": "sbdinc",
+  "site": "Stanley_Black_Decker_Career_Site"
+ },
+ {
+  "name": "Kimberly-Clark",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "kimberlyclark.wd1.myworkdayjobs.com",
+  "tenant": "kimberlyclark",
+  "site": "GLOBAL"
+ },
+ {
+  "name": "The Campbell's Company",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "campbellsoup.wd5.myworkdayjobs.com",
+  "tenant": "campbellsoup",
+  "site": "ExternalCareers_GlobalSite"
+ },
+ {
+  "name": "Conagra Brands",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "conagrabrands.wd1.myworkdayjobs.com",
+  "tenant": "conagrabrands",
+  "site": "Careers_US"
+ },
+ {
+  "name": "The Clorox Company",
+  "industry": "Retail & consumer",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "clorox.wd1.myworkdayjobs.com",
+  "tenant": "clorox",
+  "site": "Clorox"
+ },
+ {
+  "name": "JLL",
+  "industry": "Consulting",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "jll.wd1.myworkdayjobs.com",
+  "tenant": "jll",
+  "site": "jllcareers"
+ },
+ {
+  "name": "Cushman & Wakefield",
+  "industry": "Consulting",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "cw.wd1.myworkdayjobs.com",
+  "tenant": "cw",
+  "site": "External"
+ },
+ {
+  "name": "Colliers",
+  "industry": "Consulting",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "colliers.wd3.myworkdayjobs.com",
+  "tenant": "colliers",
+  "site": "Colliers-External-Career-Site"
+ },
+ {
+  "name": "Exelon",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "jibe",
+  "host": "jobs.exeloncorp.com"
+ },
+ {
+  "name": "Xcel Energy",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "xcelenergy.wd1.myworkdayjobs.com",
+  "tenant": "xcelenergy",
+  "site": "External"
+ },
+ {
+  "name": "Eversource Energy",
+  "industry": "Energy & utilities",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "eversource.wd1.myworkdayjobs.com",
+  "tenant": "eversource",
+  "site": "ExternalSite"
+ },
+ {
+  "name": "Fox Corporation",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "fox.wd1.myworkdayjobs.com",
+  "tenant": "fox",
+  "site": "Domestic"
+ },
+ {
+  "name": "Dow Jones",
+  "industry": "Media",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "dowjones.wd1.myworkdayjobs.com",
+  "tenant": "dowjones",
+  "site": "Dow_Jones_Career"
+ },
+ {
+  "name": "Toyota Motor North America",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "toyota.wd503.myworkdayjobs.com",
+  "tenant": "toyota",
+  "site": "TMNA"
+ },
+ {
+  "name": "Carvana",
+  "industry": "Travel & auto",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "greenhouse",
+  "slug": "carvana"
+ },
+ {
+  "name": "Lockheed Martin",
+  "industry": "Government contractor",
+  "verified": null,
+  "batch": 3,
+  "method": "page",
+  "url": "https://lockheed.jobs.hr.cloud.sap/search",
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "General Dynamics Information Technology",
+  "industry": "Government contractor",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "gdit.wd5.myworkdayjobs.com",
+  "tenant": "gdit",
+  "site": "External_Career_Site"
+ },
+ {
+  "name": "Amentum",
+  "industry": "Government contractor",
+  "verified": "2026-11-12",
+  "batch": 3,
+  "method": "workday",
+  "host": "pae.wd1.myworkdayjobs.com",
+  "tenant": "pae",
+  "site": "Amentum_Careers"
+ },
+ {
+  "name": "AT&T",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "att.wd1.myworkdayjobs.com",
+  "tenant": "att",
+  "site": "ATTGeneral",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Red Hat",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "redhat.wd5.myworkdayjobs.com",
+  "tenant": "redhat",
+  "site": "Jobs",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "GlobalFoundries",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "globalfoundries.wd1.myworkdayjobs.com",
+  "tenant": "globalfoundries",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Jabil",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "jabil.wd5.myworkdayjobs.com",
+  "tenant": "jabil",
+  "site": "Jabil_Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "TD SYNNEX",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "synnex.wd5.myworkdayjobs.com",
+  "tenant": "synnex",
+  "site": "tdsynnexcareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Logitech",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "logitech.wd5.myworkdayjobs.com",
+  "tenant": "logitech",
+  "site": "Logitech",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "PTC",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "ptc.wd1.myworkdayjobs.com",
+  "tenant": "ptc",
+  "site": "PTC",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "SHI International",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "shi.wd12.myworkdayjobs.com",
+  "tenant": "shi",
+  "site": "shicareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Bentley Systems",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "bentleysystems.wd5.myworkdayjobs.com",
+  "tenant": "bentleysystems",
+  "site": "bentley",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Workiva",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "workiva.wd503.myworkdayjobs.com",
+  "tenant": "workiva",
+  "site": "careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Trellix",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "trellix.wd1.myworkdayjobs.com",
+  "tenant": "trellix",
+  "site": "EnterpriseCareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "McKesson",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "mckesson.wd3.myworkdayjobs.com",
+  "tenant": "mckesson",
+  "site": "External_Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Cardinal Health",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "cardinalhealth.wd1.myworkdayjobs.com",
+  "tenant": "cardinalhealth",
+  "site": "EXT",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Cencora",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "myhrabc.wd5.myworkdayjobs.com",
+  "tenant": "myhrabc",
+  "site": "Global",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Labcorp",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "labcorp.wd1.myworkdayjobs.com",
+  "tenant": "labcorp",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Vertex Pharmaceuticals",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "vrtx.wd501.myworkdayjobs.com",
+  "tenant": "vrtx",
+  "site": "Vertex_Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Siemens Healthineers",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "onehealthineers.wd3.myworkdayjobs.com",
+  "tenant": "onehealthineers",
+  "site": "SHSJB",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "S&P Global",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "spgi.wd5.myworkdayjobs.com",
+  "tenant": "spgi",
+  "site": "SPGI_Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Ameriprise Financial",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "ameriprise.wd5.myworkdayjobs.com",
+  "tenant": "ameriprise",
+  "site": "Ameriprise",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Raymond James",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "raymondjames.wd1.myworkdayjobs.com",
+  "tenant": "raymondjames",
+  "site": "RaymondJamesCareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "LPL Financial",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "lplfinancial.wd1.myworkdayjobs.com",
+  "tenant": "lplfinancial",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Broadridge Financial Solutions",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "broadridge.wd5.myworkdayjobs.com",
+  "tenant": "broadridge",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Ally Financial",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "ally.wd1.myworkdayjobs.com",
+  "tenant": "ally",
+  "site": "Ally",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "CME Group",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "cmegroup.wd1.myworkdayjobs.com",
+  "tenant": "cmegroup",
+  "site": "cme_careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Sun Life",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "sunlife.wd3.myworkdayjobs.com",
+  "tenant": "sunlife",
+  "site": "Experienced-Jobs",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Air Liquide",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "airliquidehr.wd3.myworkdayjobs.com",
+  "tenant": "airliquidehr",
+  "site": "AirLiquideExternalCareer",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Air Products",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "airproducts.wd5.myworkdayjobs.com",
+  "tenant": "airproducts",
+  "site": "AP0001",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Rockwell Automation",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "rockwellautomation.wd1.myworkdayjobs.com",
+  "tenant": "rockwellautomation",
+  "site": "External_Rockwell_Automation",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Ryder System",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "ryder.wd5.myworkdayjobs.com",
+  "tenant": "ryder",
+  "site": "RyderCareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Regal Rexnord",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "regalrexnord.wd1.myworkdayjobs.com",
+  "tenant": "regalrexnord",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Allegion",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "allegion.wd5.myworkdayjobs.com",
+  "tenant": "allegion",
+  "site": "careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "VF Corporation",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "vfc.wd5.myworkdayjobs.com",
+  "tenant": "vfc",
+  "site": "vfc_careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "PVH",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "pvh.wd1.myworkdayjobs.com",
+  "tenant": "pvh",
+  "site": "PVH_Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Skechers",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "skechers.wd5.myworkdayjobs.com",
+  "tenant": "skechers",
+  "site": "One-career-site",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Deckers Brands",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "deckers.wd5.myworkdayjobs.com",
+  "tenant": "deckers",
+  "site": "Deckers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "New Balance",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "newbalance.wd1.myworkdayjobs.com",
+  "tenant": "newbalance",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Lamb Weston",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "lambweston.wd1.myworkdayjobs.com",
+  "tenant": "lambweston",
+  "site": "Lamb_External",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Baker Tilly",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "bakertilly.wd5.myworkdayjobs.com",
+  "tenant": "bakertilly",
+  "site": "BTCareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "FTI Consulting",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "fticonsulting.wd108.myworkdayjobs.com",
+  "tenant": "fticonsulting",
+  "site": "FTIConsultingCareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Crowe",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "crowe.wd12.myworkdayjobs.com",
+  "tenant": "crowe",
+  "site": "External_Careers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Huron",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "huron.wd1.myworkdayjobs.com",
+  "tenant": "huron",
+  "site": "huroncareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Protiviti",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "roberthalf.wd1.myworkdayjobs.com",
+  "tenant": "roberthalf",
+  "site": "protivitiexperiencedcareers",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Iberdrola / Avangrid",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "iberdrola.wd3.myworkdayjobs.com",
+  "tenant": "iberdrola",
+  "site": "Iberdrola",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "AES",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "aes.wd1.myworkdayjobs.com",
+  "tenant": "aes",
+  "site": "AES_US",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Ameren",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "ameren.wd1.myworkdayjobs.com",
+  "tenant": "ameren",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Thomson Reuters",
+  "method": "workday",
+  "industry": "Media",
+  "host": "thomsonreuters.wd5.myworkdayjobs.com",
+  "tenant": "thomsonreuters",
+  "site": "External_Career_Site",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "RELX",
+  "method": "workday",
+  "industry": "Media",
+  "host": "relx.wd3.myworkdayjobs.com",
+  "tenant": "relx",
+  "site": "relx",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Sony Pictures Entertainment",
+  "method": "workday",
+  "industry": "Media",
+  "host": "spe.wd1.myworkdayjobs.com",
+  "tenant": "spe",
+  "site": "SonyPicturesEntertainment",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Live Nation Entertainment",
+  "method": "workday",
+  "industry": "Media",
+  "host": "livenation.wd503.myworkdayjobs.com",
+  "tenant": "livenation",
+  "site": "LNExternalSite",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "Nexstar Media Group",
+  "method": "workday",
+  "industry": "Media",
+  "host": "nexstar.wd5.myworkdayjobs.com",
+  "tenant": "nexstar",
+  "site": "nexstar",
+  "verified": "2026-11-12",
+  "batch": 4
+ },
+ {
+  "name": "CDW",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "cdw.wd5.myworkdayjobs.com",
+  "tenant": "cdw",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Microchip Technology",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "microchiphr.wd5.myworkdayjobs.com",
+  "tenant": "microchiphr",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Genesys",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "genesys.wd1.myworkdayjobs.com",
+  "tenant": "genesys",
+  "site": "Genesys",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Altera",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "altera.wd1.myworkdayjobs.com",
+  "tenant": "altera",
+  "site": "Altera",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Trend Micro",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "trendmicro.wd3.myworkdayjobs.com",
+  "tenant": "trendmicro",
+  "site": "external",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Veeam Software",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "veeamsoftware",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Verkada",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "verkada",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "BeyondTrust",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "beyondtrust",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Justworks",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "justworks",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Cerebras Systems",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "cerebras",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Crusoe",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "Crusoe",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Lambda",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "Lambda",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "ClickHouse",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "clickhouse",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Sigma Computing",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "sigmacomputing",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Together AI",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "togetherai",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "SingleStore",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "singlestore",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "IQVIA",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "iqvia.wd1.myworkdayjobs.com",
+  "tenant": "iqvia",
+  "site": "IQVIA",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Medline",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "medline.wd5.myworkdayjobs.com",
+  "tenant": "medline",
+  "site": "Medline",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Alcon",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "alcon.wd5.myworkdayjobs.com",
+  "tenant": "alcon",
+  "site": "careers_alcon",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Dexcom",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "dexcom.wd1.myworkdayjobs.com",
+  "tenant": "dexcom",
+  "site": "Dexcom",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "ResMed",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "resmed.wd3.myworkdayjobs.com",
+  "tenant": "resmed",
+  "site": "ResMed_External_Careers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Insulet",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "insulet.wd5.myworkdayjobs.com",
+  "tenant": "insulet",
+  "site": "insuletcareers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Integer Holdings",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "integer.wd1.myworkdayjobs.com",
+  "tenant": "integer",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Heartflow",
+  "method": "greenhouse",
+  "industry": "Healthcare companies",
+  "slug": "heartflowinc",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "TD Bank",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "td.wd3.myworkdayjobs.com",
+  "tenant": "td",
+  "site": "TD_Bank_Careers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "BMO",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "bmo.wd3.myworkdayjobs.com",
+  "tenant": "bmo",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "CIBC",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "cibc.wd3.myworkdayjobs.com",
+  "tenant": "cibc",
+  "site": "search",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Pacific Life",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "pacificlife.wd1.myworkdayjobs.com",
+  "tenant": "pacificlife",
+  "site": "PacificLifeCareers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "FactSet",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "factset.wd108.myworkdayjobs.com",
+  "tenant": "factset",
+  "site": "FactSetCareers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Synchrony",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "synchronyfinancial.wd5.myworkdayjobs.com",
+  "tenant": "synchronyfinancial",
+  "site": "careers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "J.B. Hunt",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "jbhunt.wd501.myworkdayjobs.com",
+  "tenant": "jbhunt",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Solenis",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "solenis.wd1.myworkdayjobs.com",
+  "tenant": "solenis",
+  "site": "Solenis",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Huntsman",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "huntsman.wd1.myworkdayjobs.com",
+  "tenant": "huntsman",
+  "site": "Huntsman",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Chemours",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "chemours.wd103.myworkdayjobs.com",
+  "tenant": "chemours",
+  "site": "Chemours",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Menasha Corporation",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "menasha.wd12.myworkdayjobs.com",
+  "tenant": "menasha",
+  "site": "MenashaCorp",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Gap Inc.",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "gapinc.wd1.myworkdayjobs.com",
+  "tenant": "gapinc",
+  "site": "GAPINC",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Levi Strauss & Co.",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "levistraussandco.wd5.myworkdayjobs.com",
+  "tenant": "levistraussandco",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Kohl's",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "kohls.wd504.myworkdayjobs.com",
+  "tenant": "kohls",
+  "site": "kohlscareers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Petco",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "petco.wd504.myworkdayjobs.com",
+  "tenant": "petco",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Crate & Barrel Holdings",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "crateandbarrel.wd1.myworkdayjobs.com",
+  "tenant": "crateandbarrel",
+  "site": "CBH",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "RSM US",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "rsm.wd1.myworkdayjobs.com",
+  "tenant": "rsm",
+  "site": "RSMCareers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Robert Half",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "roberthalf.wd1.myworkdayjobs.com",
+  "tenant": "roberthalf",
+  "site": "RobertHalfCareers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Armanino",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "armaninollp.wd1.myworkdayjobs.com",
+  "tenant": "armaninollp",
+  "site": "Armanino",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Nordic Consulting",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "nordic.wd1.myworkdayjobs.com",
+  "tenant": "nordic",
+  "site": "Nordic",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "Enbridge",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "enbridge.wd3.myworkdayjobs.com",
+  "tenant": "enbridge",
+  "site": "enbridge_careers",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "ONEOK",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "oneok.wd1.myworkdayjobs.com",
+  "tenant": "oneok",
+  "site": "ONEOK",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "NiSource",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "nisource.wd1.myworkdayjobs.com",
+  "tenant": "nisource",
+  "site": "NiSource",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "The New York Times Company",
+  "method": "greenhouse",
+  "industry": "Media",
+  "slug": "thenewyorktimes",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "TelevisaUnivision",
+  "method": "workday",
+  "industry": "Media",
+  "host": "univision.wd1.myworkdayjobs.com",
+  "tenant": "univision",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 5
+ },
+ {
+  "name": "NTT DATA",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "nttlimited.wd3.myworkdayjobs.com",
+  "tenant": "nttlimited",
+  "site": "NTT_Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "DXC Technology",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "dxctechnology.wd1.myworkdayjobs.com",
+  "tenant": "dxctechnology",
+  "site": "DXCJobs",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "NCR Voyix",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "ncr.wd1.myworkdayjobs.com",
+  "tenant": "ncr",
+  "site": "ext_us",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Zayo Group",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "zayo.wd1.myworkdayjobs.com",
+  "tenant": "zayo",
+  "site": "Zayo_Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Entegris",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "entegris.wd1.myworkdayjobs.com",
+  "tenant": "entegris",
+  "site": "EntegrisCareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "MKS Inc.",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "mksinst.wd1.myworkdayjobs.com",
+  "tenant": "mksinst",
+  "site": "MKSCareersAmericas",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Lattice Semiconductor",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "latticesemi.wd5.myworkdayjobs.com",
+  "tenant": "latticesemi",
+  "site": "latticesemiconductorscareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Onto Innovation",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "onto.wd1.myworkdayjobs.com",
+  "tenant": "onto",
+  "site": "ONTO_Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "FormFactor",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "formfactor.wd1.myworkdayjobs.com",
+  "tenant": "formfactor",
+  "site": "FFI-Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Axcelis Technologies",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "axcelis.wd1.myworkdayjobs.com",
+  "tenant": "axcelis",
+  "site": "Axcelis",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "SiFive",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "sifive.wd1.myworkdayjobs.com",
+  "tenant": "sifive",
+  "site": "sifivecareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Procore Technologies",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "procore.wd12.myworkdayjobs.com",
+  "tenant": "procore",
+  "site": "Procore_External_Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "ServiceTitan",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "servicetitan.wd1.myworkdayjobs.com",
+  "tenant": "servicetitan",
+  "site": "ServiceTitan",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "SailPoint",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "sailpoint.wd1.myworkdayjobs.com",
+  "tenant": "sailpoint",
+  "site": "SailPoint",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Motive",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "gomotive",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Glean",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "gleanwork",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Harvey",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "harvey",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Sierra",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "Sierra",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "ElevenLabs",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "ElevenLabs",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Chainguard",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "chainguard",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "GSK",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "gsk.wd5.myworkdayjobs.com",
+  "tenant": "gsk",
+  "site": "GSKCareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "BD",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "bdx.wd1.myworkdayjobs.com",
+  "tenant": "bdx",
+  "site": "EXTERNAL_CAREER_SITE_USA",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Zoetis",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "zoetis.wd5.myworkdayjobs.com",
+  "tenant": "zoetis",
+  "site": "zoetis",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Elanco",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "elanco.wd5.myworkdayjobs.com",
+  "tenant": "elanco",
+  "site": "External_Career",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Catalent",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "catalent.wd1.myworkdayjobs.com",
+  "tenant": "catalent",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "athenahealth",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "athenahealth.wd1.myworkdayjobs.com",
+  "tenant": "athenahealth",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "M&T Bank",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "mtb.wd5.myworkdayjobs.com",
+  "tenant": "mtb",
+  "site": "mtb",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "FIS",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "fis.wd5.myworkdayjobs.com",
+  "tenant": "fis",
+  "site": "SearchJobs",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "T. Rowe Price",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "troweprice.wd5.myworkdayjobs.com",
+  "tenant": "troweprice",
+  "site": "troweprice",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Transamerica",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "transamerica.wd5.myworkdayjobs.com",
+  "tenant": "transamerica",
+  "site": "US",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Cboe Global Markets",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "cboe.wd1.myworkdayjobs.com",
+  "tenant": "cboe",
+  "site": "External_Career_CBOE",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Flex Ltd.",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "flextronics.wd1.myworkdayjobs.com",
+  "tenant": "flextronics",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "UFP Industries",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "ufpi.wd503.myworkdayjobs.com",
+  "tenant": "ufpi",
+  "site": "ufpi",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Brunswick Corporation",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "brunswick.wd1.myworkdayjobs.com",
+  "tenant": "brunswick",
+  "site": "search",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Greif",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "greif.wd5.myworkdayjobs.com",
+  "tenant": "greif",
+  "site": "Greif",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Albemarle",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "albemarle.wd5.myworkdayjobs.com",
+  "tenant": "albemarle",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "TOPPAN Packaging",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "toppan.wd108.myworkdayjobs.com",
+  "tenant": "toppan",
+  "site": "TOPPAN-Packaging",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "TJX Companies",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "tjx.wd1.myworkdayjobs.com",
+  "tenant": "tjx",
+  "site": "TJX_EXTERNAL",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Dick's Sporting Goods",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "dickssportinggoods.wd1.myworkdayjobs.com",
+  "tenant": "dickssportinggoods",
+  "site": "DSG",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Burlington Stores",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "burlington.wd5.myworkdayjobs.com",
+  "tenant": "burlington",
+  "site": "BurlingtonCareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Tyson Foods",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "tysonfoods.wd5.myworkdayjobs.com",
+  "tenant": "tysonfoods",
+  "site": "TSN",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "ScottsMiracle-Gro",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "scottsmiraclegro.wd5.myworkdayjobs.com",
+  "tenant": "scottsmiraclegro",
+  "site": "SMGExternal",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "MasterBrand",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "masterbrand.wd12.myworkdayjobs.com",
+  "tenant": "masterbrand",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "CliftonLarsonAllen",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "cliftonlarsonallen.wd115.myworkdayjobs.com",
+  "tenant": "cliftonlarsonallen",
+  "site": "CLA",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Synechron",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "synechron.wd1.myworkdayjobs.com",
+  "tenant": "synechron",
+  "site": "SynechronCareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Fractal Analytics",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "fractal.wd1.myworkdayjobs.com",
+  "tenant": "fractal",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Dominion Energy",
+  "method": "page",
+  "industry": "Energy & utilities",
+  "url": "https://careers.dominionenergy.com/viewalljobs/",
+  "verified": null,
+  "batch": 6,
+  "note": "ChatGPT est. 25+ US roles; career site only"
+ },
+ {
+  "name": "Marathon Petroleum",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "mpc.wd1.myworkdayjobs.com",
+  "tenant": "mpc",
+  "site": "MPCCareers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Omnicom",
+  "method": "workday",
+  "industry": "Media",
+  "host": "interpublic.wd5.myworkdayjobs.com",
+  "tenant": "interpublic",
+  "site": "OMC",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "The E.W. Scripps Company",
+  "method": "workday",
+  "industry": "Media",
+  "host": "scripps.wd115.myworkdayjobs.com",
+  "tenant": "scripps",
+  "site": "Scripps_Careers",
+  "verified": "2026-11-12",
+  "batch": 6
+ },
+ {
+  "name": "Verizon",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "verizon.wd12.myworkdayjobs.com",
+  "tenant": "verizon",
+  "site": "verizon-careers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Synopsys",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://careers.synopsys.com/search-jobs",
+  "verified": null,
+  "batch": 7,
+  "note": "ChatGPT est. 182 US roles; career site only"
+ },
+ {
+  "name": "Nokia",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://jobs.nokia.com/en/sites/CX_1/jobs?location=United+States&locationLevel=country&mode=location",
+  "verified": null,
+  "batch": 7,
+  "note": "ChatGPT est. 244 US roles; career site only"
+ },
+ {
+  "name": "NetApp",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://careers.netapp.com/en/search-jobs",
+  "verified": null,
+  "batch": 7,
+  "note": "ChatGPT est. 153 US roles; career site only"
+ },
+ {
+  "name": "Fortinet",
+  "method": "oraclehcm",
+  "industry": "Tech",
+  "host": "edel.fa.us2.oraclecloud.com",
+  "site": "CX_2001",
+  "jobUrl": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Akamai Technologies",
+  "method": "oraclehcm",
+  "industry": "Tech",
+  "host": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "jobUrl": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "onsemi",
+  "method": "oraclehcm",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 7,
+  "note": "712 roles worldwide incl. manufacturing",
+  "host": "hctz.fa.us2.oraclecloud.com",
+  "site": "CX_1001"
+ },
+ {
+  "name": "Arista Networks",
+  "method": "smartrecruiters",
+  "industry": "Tech",
+  "slug": "aristanetworks",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Trimble",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "trimble.wd1.myworkdayjobs.com",
+  "tenant": "trimble",
+  "site": "TrimbleCareers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "SS&C Technologies",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "ssctech.wd1.myworkdayjobs.com",
+  "tenant": "ssctech",
+  "site": "SSCTechnologies",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Proofpoint",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "proofpoint.wd5.myworkdayjobs.com",
+  "tenant": "proofpoint",
+  "site": "ProofpointCareers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "CommScope",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://jobs.commscope.com/search/",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Cloudera",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "cloudera.wd5.myworkdayjobs.com",
+  "tenant": "cloudera",
+  "site": "External_Career",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Solidigm",
+  "method": "smartrecruiters",
+  "industry": "Tech",
+  "slug": "Solidigm",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Rippling",
+  "method": "page",
+  "industry": "Tech",
+  "url": "https://www.rippling.com/careers/open-roles",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Arctic Wolf",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "arcticwolf.wd1.myworkdayjobs.com",
+  "tenant": "arcticwolf",
+  "site": "External",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Applied Intuition",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "applied",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Cursor / Anysphere",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "cursor",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Decagon",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "decagon",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Baseten",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "baseten",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Fireworks AI",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "fireworks",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Temporal Technologies",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "temporal",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Cognition",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "cognition",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Zip",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "zip",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Runway",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "runway-ml",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Ferguson",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "ferguson.wd1.myworkdayjobs.com",
+  "tenant": "ferguson",
+  "site": "Ferguson_Experienced",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Celestica",
+  "method": "page",
+  "industry": "Logistics & industrial",
+  "url": "https://careers.celestica.com/search/",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Generac",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "generac.wd5.myworkdayjobs.com",
+  "tenant": "generac",
+  "site": "external",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Covestro",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "covestro.wd3.myworkdayjobs.com",
+  "tenant": "covestro",
+  "site": "cov_external",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Axalta Coating Systems",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "axalta.wd1.myworkdayjobs.com",
+  "tenant": "axalta",
+  "site": "Axalta",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Fanatics Commerce",
+  "method": "greenhouse",
+  "industry": "Retail & consumer",
+  "slug": "fanaticscommerce",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Hasbro",
+  "method": "greenhouse",
+  "industry": "Retail & consumer",
+  "slug": "hasbro",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Ace Hardware",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "ace.wd5.myworkdayjobs.com",
+  "tenant": "ace",
+  "site": "careers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Columbia Sportswear",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "columbiasportswearcompany.wd5.myworkdayjobs.com",
+  "tenant": "columbiasportswearcompany",
+  "site": "CSC_Careers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Saputo",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "saputo.wd5.myworkdayjobs.com",
+  "tenant": "saputo",
+  "site": "Saputo_External_Careers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Cognizant",
+  "method": "page",
+  "industry": "Consulting",
+  "url": "https://careers.cognizant.com/global-en/jobs/",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Capgemini",
+  "method": "page",
+  "industry": "Consulting",
+  "url": "https://www.capgemini.com/us-en/careers/join-capgemini/job-search/?country_code=us-en",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Genpact",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "genpact.wd108.myworkdayjobs.com",
+  "tenant": "genpact",
+  "site": "External_Careers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Pacific Gas and Electric",
+  "method": "page",
+  "industry": "Energy & utilities",
+  "url": "https://jobs.pge.com/search-jobs",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Southern Company",
+  "method": "oraclehcm",
+  "industry": "Energy & utilities",
+  "host": "emje.fa.us6.oraclecloud.com",
+  "site": "SouthernCompanyJobs",
+  "jobUrl": "https://emje.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/SouthernCompanyJobs/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Phillips 66",
+  "method": "page",
+  "industry": "Energy & utilities",
+  "url": "https://careers.phillips66.com/search/",
+  "verified": null,
+  "batch": 7,
+  "note": "Borderline ~20 US office roles (ChatGPT); career site only"
+ },
+ {
+  "name": "USAA",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "usaa.wd1.myworkdayjobs.com",
+  "tenant": "usaa",
+  "site": "USAAJOBSWD",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Plaid",
+  "method": "ashby",
+  "industry": "Finance & fintech",
+  "slug": "plaid",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Thermo Fisher Scientific",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "thermofisher.wd5.myworkdayjobs.com",
+  "tenant": "thermofisher",
+  "site": "ThermoFisherCareers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "AbbVie",
+  "method": "smartrecruiters",
+  "industry": "Healthcare companies",
+  "slug": "abbvie",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Boston Scientific",
+  "method": "page",
+  "industry": "Healthcare companies",
+  "url": "https://jobs.bostonscientific.com/search/",
+  "verified": null,
+  "batch": 7,
+  "note": "Career site; not checked"
+ },
+ {
+  "name": "Yahoo",
+  "method": "workday",
+  "industry": "Media",
+  "host": "ouryahoo.wd5.myworkdayjobs.com",
+  "tenant": "ouryahoo",
+  "site": "careers",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Dentsu",
+  "method": "workday",
+  "industry": "Media",
+  "host": "dentsuaegis.wd3.myworkdayjobs.com",
+  "tenant": "dentsuaegis",
+  "site": "DAN_GLOBAL",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Rivian and Volkswagen Group Technologies",
+  "method": "ashby",
+  "industry": "Travel & auto",
+  "slug": "rivianvw.tech",
+  "verified": "2026-11-12",
+  "batch": 7
+ },
+ {
+  "name": "Fluidstack",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "fluidstack",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Nscale",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "nscaleoperationsukltd",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Lila Sciences",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "lilasciences",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Etched",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "Etched",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Symbotic",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "symbotic.wd504.myworkdayjobs.com",
+  "tenant": "symbotic",
+  "site": "Symbotic",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "AlphaSense",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "alphasense",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Trace3",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "trace3",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "TRM Labs",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "trm-labs",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Mercor",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "mercor",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Keeper Security",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "keepersecurity",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Wayve",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "wayve",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Aurora Innovation",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "aurora-operations-inc",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Suno",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "suno",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Handshake",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "handshake",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Faire",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "faire",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Itron",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "itron.wd5.myworkdayjobs.com",
+  "tenant": "itron",
+  "site": "Itron",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Clay",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "claylabs",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Physical Intelligence",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "physicalintelligence",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Cribl",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "cribl",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Gong",
+  "method": "greenhouse",
+  "industry": "Tech",
+  "slug": "gongio",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Alkami Technology",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "alkami.wd12.myworkdayjobs.com",
+  "tenant": "alkami",
+  "site": "Alkami",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Hex",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "hex",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Modal",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "modal",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "d-Matrix",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "d-Matrix",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "ClickUp",
+  "method": "ashby",
+  "industry": "Tech",
+  "slug": "clickup",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Republic Services",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "republic.wd5.myworkdayjobs.com",
+  "tenant": "republic",
+  "site": "Republic",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Iron Mountain",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "ironmountain.wd5.myworkdayjobs.com",
+  "tenant": "ironmountain",
+  "site": "iron-mountain-jobs",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "GFL Environmental",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "gflenv.wd3.myworkdayjobs.com",
+  "tenant": "gflenv",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Barry-Wehmiller",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "barrywehmiller.wd1.myworkdayjobs.com",
+  "tenant": "barrywehmiller",
+  "site": "BWCareers",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Nordson",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "nordsonhcm.wd501.myworkdayjobs.com",
+  "tenant": "nordsonhcm",
+  "site": "nordsoncareers",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Graco",
+  "method": "workday",
+  "industry": "Logistics & industrial",
+  "host": "graco.wd501.myworkdayjobs.com",
+  "tenant": "graco",
+  "site": "Graco_Careers",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Kroger",
+  "method": "oraclehcm",
+  "industry": "Retail & consumer",
+  "host": "eluq.fa.us2.oraclecloud.com",
+  "site": "CX_2001",
+  "jobUrl": "https://eluq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Dollar Tree",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "dollartree.wd5.myworkdayjobs.com",
+  "tenant": "dollartree",
+  "site": "dollartreeus",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "GE Appliances",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "haier.wd3.myworkdayjobs.com",
+  "tenant": "haier",
+  "site": "GE_Appliances",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Land O'Lakes",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "landolakes.wd1.myworkdayjobs.com",
+  "tenant": "landolakes",
+  "site": "landolakes",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Techtronic Industries",
+  "method": "workday",
+  "industry": "Retail & consumer",
+  "host": "tti.wd1.myworkdayjobs.com",
+  "tenant": "tti",
+  "site": "TeamTTI-Jobs",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "WSP",
+  "method": "oraclehcm",
+  "industry": "Consulting",
+  "host": "emit.fa.ca3.oraclecloud.com",
+  "site": "CX_2001",
+  "jobUrl": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Arcadis",
+  "method": "oraclehcm",
+  "industry": "Consulting",
+  "host": "ebcs.fa.em2.oraclecloud.com",
+  "site": "CX_1",
+  "jobUrl": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "WTW",
+  "method": "oraclehcm",
+  "industry": "Consulting",
+  "host": "eedu.fa.em3.oraclecloud.com",
+  "site": "CX_1003",
+  "jobUrl": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Cumming Group",
+  "method": "workday",
+  "industry": "Consulting",
+  "host": "cumminggroup.wd1.myworkdayjobs.com",
+  "tenant": "cumminggroup",
+  "site": "CGC",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "FirstEnergy",
+  "method": "oraclehcm",
+  "industry": "Energy & utilities",
+  "host": "fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "FirstEnergyCareers",
+  "jobUrl": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/FirstEnergyCareers/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "American Electric Power",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "aep.wd1.myworkdayjobs.com",
+  "tenant": "aep",
+  "site": "aepcareersite",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Arizona Public Service",
+  "method": "oraclehcm",
+  "industry": "Energy & utilities",
+  "host": "fa-ewxu-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "APS-Career-Site",
+  "jobUrl": "https://fa-ewxu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/APS-Career-Site/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Plains All American",
+  "method": "workday",
+  "industry": "Energy & utilities",
+  "host": "plains.wd1.myworkdayjobs.com",
+  "tenant": "plains",
+  "site": "Plains",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Fifth Third Bank",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "fifththird.wd5.myworkdayjobs.com",
+  "tenant": "fifththird",
+  "site": "53careers",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "KeyBank",
+  "method": "workday",
+  "industry": "Finance & fintech",
+  "host": "keybank.wd5.myworkdayjobs.com",
+  "tenant": "keybank",
+  "site": "External_Career_Site",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "AstraZeneca",
+  "method": "workday",
+  "industry": "Healthcare companies",
+  "host": "astrazeneca.wd3.myworkdayjobs.com",
+  "tenant": "astrazeneca",
+  "site": "Careers",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "WPP Media",
+  "method": "greenhouse",
+  "industry": "Media",
+  "slug": "wppmedia",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "Hertz",
+  "method": "oraclehcm",
+  "industry": "Travel & auto",
+  "host": "fa-evlf-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
+  "jobUrl": "https://fa-evlf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{id}",
+  "verified": "2026-11-12",
+  "batch": 8
+ },
+ {
+  "name": "QTS Data Centers",
+  "method": "workday",
+  "industry": "Tech",
+  "host": "qtsdatacenters.wd5.myworkdayjobs.com",
+  "tenant": "qtsdatacenters",
+  "site": "QTS",
+  "verified": "2026-11-12",
+  "batch": 9,
+  "note": "247 roles, nearly all US (data center build-out)"
+ },
+ {
+  "name": "NinjaOne",
+  "method": "greenhouse",
+  "slug": "ninjaone",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 9,
+  "note": "85 US roles"
+ },
+ {
+  "name": "Oura",
+  "method": "greenhouse",
+  "slug": "oura",
+  "industry": "Tech",
+  "verified": "2026-11-12",
+  "batch": 9,
+  "note": "83 US roles"
+ }
+]

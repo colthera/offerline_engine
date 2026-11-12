@@ -1,0 +1,40 @@
+name: scan
+on:
+  schedule:
+    - cron: "7 * * * *"   # every hour at :07 (off the top of the hour, when GitHub is busiest)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Load last scan
+        run: |
+          mkdir -p prev out
+          if git fetch --depth=1 origin data 2>/dev/null; then
+            for f in jobs.json health.json history.jsonl; do git show origin/data:$f > prev/$f 2>/dev/null || true; done
+            cp prev/history.jsonl out/history.jsonl 2>/dev/null || true
+          fi
+      - name: Scan every board
+        run: node scan.mjs
+      - name: Show report
+        if: always()
+        run: cat out/report.md >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Publish results to the data branch
+        run: |
+          cd out
+          git init -q -b data
+          git config user.name "offerline-scanner"
+          git config user.email "scanner@users.noreply.github.com"
+          git add -A
+          git commit -qm "scan $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data

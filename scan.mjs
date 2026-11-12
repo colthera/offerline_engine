@@ -21,9 +21,10 @@ const US = new RegExp(`united states|\\busa?\\b|u\\.s\\.|,\\s*(${ABBR})\\b|\\b($
 const NOT_US = /canada|toronto|vancouver|montreal|ontario|british columbia|united kingdom|\buk\b|london|dublin|india|bengaluru|bangalore|hyderabad|pune|mexico|brazil|germany|france|ireland|singapore|japan|australia|china|poland|netherlands|spain|israel|philippines|costa rica|romania|hungary|czech|argentina|colombia|korea/i;
 const SURE_US = new RegExp(`united states|\\busa\\b|u\\.s\\.|\\b(${STATES})\\b`, 'i');
 // A job is US when any of its locations is. A part naming another country counts only if it also names a US state.
-// "Remote" alone and Workday's "3 Locations" are kept: the user's own location filter decides.
+// "Remote" alone, Workday's "3 Locations" and a blank location are kept as "location unknown":
+// the user's watcher then checks the job description.
 const usPart = p => (US.test(p) && (!NOT_US.test(p) || SURE_US.test(p))) || /^\s*(remote|\d+ locations)\s*$/i.test(p);
-const isUS = loc => String(loc || '').split(/;|\|/).some(usPart);
+const isUS = loc => !String(loc || '').trim() || String(loc).split(/;|\|/).some(usPart);
 const strip = h => String(h || '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 
 let requests = 0;
@@ -130,9 +131,13 @@ const R = {
       .map(x => ({ id: x.id, title: x.title, loc: chain(x.city_info).map(n => n.en_name).join(', ') + ', United States', url: `https://lifeattiktok.com/search/${x.id}` }));
   },
   async eightfold(c) {
-    const j = await call(`https://${c.host}/api/apply/v2/jobs?domain=${c.domain}&start=0&num=100&location=United%20States&sort_by=timestamp`);
-    c._total = j.count;
-    return (j.positions || []).map(p => ({ id: p.id, title: p.name, loc: (p.locations || [p.location]).join('; '), url: p.canonicalPositionUrl || `https://${c.host}/careers/job/${p.id}`, posted: p.t_create && new Date(p.t_create * 1000).toISOString() }));
+    const ps = [];
+    for (let start = 0; start < 100; start += 10) {   // Eightfold returns 10 per page
+      const j = await call(`https://${c.host}/api/apply/v2/jobs?domain=${c.domain}&start=${start}&num=10&location=United%20States&sort_by=timestamp`);
+      c._total = j.count; ps.push(...(j.positions || []));
+      if ((j.positions || []).length < 10) break;
+    }
+    return ps.map(p => ({ id: p.id, title: p.name, loc: (p.locations || [p.location]).join('; '), url: p.canonicalPositionUrl || `https://${c.host}/careers/job/${p.id}`, posted: p.t_create && new Date(p.t_create * 1000).toISOString() }));
   },
   async googlehtml() {
     const s = await call('https://www.google.com/about/careers/applications/jobs/results/?location=United%20States&sort_by=date', {}, 'html');

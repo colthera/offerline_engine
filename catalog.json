@@ -967,14 +967,6 @@
   "site": "Careers_GM"
  },
  {
-  "name": "Anduril",
-  "method": "greenhouse",
-  "industry": "Government contractor",
-  "verified": "2026-11-11",
-  "batch": 1,
-  "slug": "andurilindustries"
- },
- {
   "name": "Palantir",
   "method": "lever",
   "industry": "Government contractor",

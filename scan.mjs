@@ -199,6 +199,7 @@ const cutoff = new Date(Date.now() - 30 * 864e5).toISOString();
 for (const j of PREV.jobs) {
   if (fresh.has(j.key)) continue;
   const c = CATALOG.find(x => x.name === j.company);
+  if (!c) continue;                 // company removed from the catalog: drop its jobs
   const closed = c && readAll.has(c.method) && okBoards.has(c.name);
   if (!closed && j.firstSeen > cutoff) jobs.push(j);
 }

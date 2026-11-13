@@ -23,7 +23,12 @@
   "industry": "Tech",
   "verified": "2026-11-12",
   "batch": 0,
-  "note": "v2 re-checked: 654 US"
+  "note": "v2 re-checked: 654 US",
+  "applicationLimit": {
+   "count": 6,
+   "days": 180,
+   "source": "Provided by BigTobi (maintainer), 2026-11-12"
+  }
  },
  {
   "name": "Salesforce",
@@ -491,7 +496,12 @@
   "industry": "Tech",
   "verified": "2026-11-12",
   "batch": 0,
-  "note": "Nationwide: google.com/about/careers/applications/jobs/results/?location=United%20States&q={query} (verified)"
+  "note": "Nationwide: google.com/about/careers/applications/jobs/results/?location=United%20States&q={query} (verified)",
+  "applicationLimit": {
+   "count": 3,
+   "days": 30,
+   "source": "Provided by BigTobi (maintainer), 2026-11-12"
+  }
  },
  {
   "name": "Apple",

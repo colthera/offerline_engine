@@ -13,4 +13,4 @@ The `data` branch is replaced on every scan, so it never grows.
 
 ## Company application limits
 
-A catalog entry may carry `"applicationLimit": {"count": 3, "days": 30, "source": "<link to the company's own page stating it>"}`. Add one only when the company itself states the limit (its careers FAQ, apply page or confirmation email). Every user's dashboard picks it up at their next morning run and warns before they go over it.
+A catalog entry may carry `"applicationLimit": {"count": 3, "days": 30, "source": "<link to the company's own page stating it>"}`. Add one only when the company itself states the limit (its careers FAQ, apply page or confirmation email), or when the maintainer has confirmed it; say which in `source`. Every user's dashboard picks it up at their next morning run and warns before they go over it.

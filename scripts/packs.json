@@ -1,0 +1,2462 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "name": "Programs & operations",
+      "summary": "Find roles that deliver programs and projects, improve operations, or help leadership execute priorities.",
+      "families": [
+        {
+          "name": "Program management",
+          "searchTerms": [
+            "program manager",
+            "program management",
+            "program director"
+          ],
+          "titleRegex": "\\bprogram managers?\\b|\\b(?:director|head|vp) of program management\\b|\\bprogram management (?:lead|director)\\b",
+          "broadTitleRegex": "\\bportfolio manager\\b|\\bdelivery manager\\b",
+          "atsTerms": [
+            "program management",
+            "stakeholder management",
+            "cross-functional collaboration",
+            "strategic planning",
+            "risk management",
+            "roadmaps",
+            "executive communication",
+            "change management",
+            "process improvement",
+            "resource planning",
+            "budget management",
+            "KPIs",
+            "governance",
+            "Jira",
+            "Smartsheet"
+          ],
+          "fitThemes": [
+            [
+              "program ownership",
+              "program manag|program delivery|program execution"
+            ],
+            [
+              "planning",
+              "roadmap|milestone|dependency|dependencies"
+            ],
+            [
+              "stakeholders",
+              "stakeholder|cross[- ]functional"
+            ],
+            [
+              "risk",
+              "risk mitigation|risk register|issue escalation"
+            ],
+            [
+              "governance",
+              "steering committee|governance|operating cadence"
+            ],
+            [
+              "resources",
+              "resource planning|capacity planning|budget management"
+            ],
+            [
+              "reporting",
+              "executive readout|status report|key performance indicator|\\bkpis?\\b"
+            ],
+            [
+              "change",
+              "change management|process improvement|continuous improvement"
+            ]
+          ],
+          "testTitles": [
+            "Program Manager",
+            "Senior Program Manager",
+            "Principal Program Manager",
+            "Program Management Lead",
+            "Director of Program Management",
+            "Program Manager, Clinical Trials"
+          ]
+        },
+        {
+          "name": "Project management",
+          "searchTerms": [
+            "project manager",
+            "project management",
+            "PMO manager"
+          ],
+          "titleRegex": "\\bproject managers?\\b|\\bpmo managers?\\b|\\b(?:director|head) of project management\\b|\\bproject management (?:lead|director)\\b",
+          "broadTitleRegex": "\\bimplementation manager\\b|\\bdelivery lead\\b",
+          "atsTerms": [
+            "project management",
+            "project planning",
+            "stakeholder management",
+            "risk management",
+            "budget management",
+            "scheduling",
+            "scope management",
+            "status reporting",
+            "resource allocation",
+            "change control",
+            "Agile",
+            "Waterfall",
+            "PMP",
+            "Microsoft Project",
+            "Smartsheet"
+          ],
+          "fitThemes": [
+            [
+              "planning",
+              "project plan|work breakdown|critical path"
+            ],
+            [
+              "scope",
+              "scope management|project scope|change control"
+            ],
+            [
+              "schedule",
+              "schedule|milestone|timeline"
+            ],
+            [
+              "cost",
+              "project budget|cost tracking|cost variance"
+            ],
+            [
+              "risk",
+              "risk register|issue log|mitigation"
+            ],
+            [
+              "resources",
+              "resource allocation|staffing plan|resource planning"
+            ],
+            [
+              "delivery methods",
+              "\\bagile\\b|waterfall|hybrid delivery"
+            ],
+            [
+              "reporting",
+              "status report|project dashboard|stakeholder update"
+            ]
+          ],
+          "testTitles": [
+            "Project Manager",
+            "Senior Project Manager",
+            "IT Project Manager",
+            "PMO Manager",
+            "Director of Project Management"
+          ]
+        },
+        {
+          "name": "Technical program management",
+          "searchTerms": [
+            "technical program manager",
+            "engineering program manager",
+            "technical program management"
+          ],
+          "titleRegex": "\\b(?:technical|engineering|software) program managers?\\b|\\b(?:director|head) of technical program management\\b|\\btechnical program management (?:lead|director)\\b",
+          "broadTitleRegex": "\\btechnical project manager\\b|\\brelease manager\\b|\\btechnical delivery manager\\b",
+          "atsTerms": [
+            "technical program management",
+            "cross-functional collaboration",
+            "software development lifecycle",
+            "stakeholder management",
+            "dependency management",
+            "risk management",
+            "Agile",
+            "technical roadmaps",
+            "release management",
+            "systems architecture",
+            "cloud infrastructure",
+            "Jira",
+            "Confluence",
+            "CI/CD",
+            "KPIs"
+          ],
+          "fitThemes": [
+            [
+              "engineering delivery",
+              "engineering delivery|technical program|software development lifecycle|\\bsdlc\\b"
+            ],
+            [
+              "dependencies",
+              "dependency|dependencies|critical path"
+            ],
+            [
+              "architecture",
+              "systems design|technical architecture|design review"
+            ],
+            [
+              "release",
+              "release planning|release management|rollout"
+            ],
+            [
+              "infrastructure",
+              "cloud infrastructure|platform engineering|distributed systems"
+            ],
+            [
+              "execution",
+              "\\bagile\\b|\\bscrum\\b|sprint planning"
+            ],
+            [
+              "delivery risk",
+              "technical risk|risk mitigation|escalation"
+            ],
+            [
+              "automation",
+              "ci/cd|deployment automation|build pipeline"
+            ]
+          ],
+          "testTitles": [
+            "Technical Program Manager",
+            "Senior Technical Program Manager",
+            "Staff Technical Program Manager",
+            "Engineering Program Manager",
+            "Director of Technical Program Management"
+          ]
+        },
+        {
+          "name": "Operations management",
+          "searchTerms": [
+            "operations manager",
+            "service operations manager",
+            "operations excellence"
+          ],
+          "titleRegex": "^(?!.*\\b(?:business|sales|revenue|marketing|people|security|warehouse|retail|store|distribution|fulfillment|fleet|manufacturing|plant|clinical|facilities|restaurant|field|branch|site|logistics|transportation|network|finance|customer success) operations\\b).*\\boperations managers?\\b|\\b(?:operations|operational) excellence (?:manager|lead|director)\\b|\\bdirector of operations\\b",
+          "broadTitleRegex": "\\bcontinuous improvement manager\\b|\\bservice delivery manager\\b",
+          "atsTerms": [
+            "operations management",
+            "process improvement",
+            "team leadership",
+            "KPIs",
+            "continuous improvement",
+            "capacity planning",
+            "performance management",
+            "root cause analysis",
+            "standard operating procedures",
+            "service level agreements",
+            "cost reduction",
+            "Excel",
+            "Lean",
+            "Six Sigma",
+            "workflow automation"
+          ],
+          "fitThemes": [
+            [
+              "operations",
+              "operating procedures|service operations|day[- ]to[- ]day operations"
+            ],
+            [
+              "performance",
+              "\\bkpis?\\b|scorecard|performance metrics"
+            ],
+            [
+              "capacity",
+              "capacity planning|workload forecasting|staffing model"
+            ],
+            [
+              "process",
+              "process improvement|continuous improvement|\\bsix sigma\\b"
+            ],
+            [
+              "service",
+              "service level|\\bslas?\\b|turnaround time"
+            ],
+            [
+              "cost",
+              "cost reduction|operating expense|cost efficiency"
+            ],
+            [
+              "quality",
+              "root cause analysis|quality assurance|defect rate"
+            ],
+            [
+              "automation",
+              "workflow automation|process automation|manual workflows"
+            ]
+          ],
+          "testTitles": [
+            "Operations Manager",
+            "Senior Operations Manager",
+            "Service Operations Manager",
+            "Operations Excellence Manager",
+            "Director of Operations",
+            "Director of Operations - Seattle"
+          ]
+        },
+        {
+          "name": "Business operations & strategy",
+          "searchTerms": [
+            "business operations",
+            "strategy and operations",
+            "chief of staff",
+            "business strategy"
+          ],
+          "titleRegex": "\\bchief of staff\\b|\\b(?:business operations|(?:business|corporate) strategy|strategy (?:and|&) operations|operations (?:and|&) strategy) (?:analyst|associate|manager|lead|director)\\b|\\b(?:director|head) of (?:business operations|corporate strategy|strategy (?:and|&) operations)\\b",
+          "broadTitleRegex": "\\bbusiness planning manager\\b|\\bstrategic initiatives manager\\b|\\btransformation manager\\b",
+          "atsTerms": [
+            "strategic planning",
+            "business operations",
+            "data analysis",
+            "cross-functional collaboration",
+            "financial modeling",
+            "executive communication",
+            "market research",
+            "business cases",
+            "operating cadence",
+            "KPIs",
+            "OKRs",
+            "process improvement",
+            "Excel",
+            "SQL",
+            "PowerPoint"
+          ],
+          "fitThemes": [
+            [
+              "strategy",
+              "strategic planning|strategic initiatives|business strategy"
+            ],
+            [
+              "operating cadence",
+              "business review|operating cadence|operating rhythm"
+            ],
+            [
+              "performance",
+              "\\bokrs?\\b|\\bkpis?\\b|performance dashboard"
+            ],
+            [
+              "business cases",
+              "business case|scenario planning|financial model"
+            ],
+            [
+              "market research",
+              "competitive analysis|market research|market sizing"
+            ],
+            [
+              "executive support",
+              "executive briefing|board materials|leadership team"
+            ],
+            [
+              "execution",
+              "strategic execution|cross[- ]functional|transformation"
+            ],
+            [
+              "analysis",
+              "\\bsql\\b|data analysis|quantitative analysis"
+            ]
+          ],
+          "testTitles": [
+            "Business Operations Analyst",
+            "Business Operations Manager",
+            "Strategy & Operations Associate",
+            "Director of Business Operations",
+            "Chief of Staff"
+          ]
+        }
+      ],
+      "titleExcludeRegex": "\\b(?:intern|internship|apprentice|apprenticeship|seasonal|warehouse|retail store)\\b",
+      "seniorityLevels": [
+        "Associate",
+        "Mid",
+        "Senior",
+        "Staff/Principal",
+        "Manager",
+        "Director"
+      ],
+      "seniorityRegex": {
+        "Associate": "\\b(?:associate|junior|jr)\\b",
+        "Senior": "\\b(?:senior|sr)\\b",
+        "Staff/Principal": "\\b(?:staff|principal|lead)\\b",
+        "Manager": "\\bmanager\\b",
+        "Director": "\\bdirector\\b|\\bhead of\\b"
+      },
+      "seniorityOrder": [
+        "Director",
+        "Staff/Principal",
+        "Senior",
+        "Associate",
+        "Manager"
+      ],
+      "seniorityDefault": "Mid"
+    },
+    {
+      "name": "Product & design",
+      "summary": "Find roles that shape digital products, design experiences, research users, or support product teams.",
+      "families": [
+        {
+          "name": "Product management",
+          "searchTerms": [
+            "product manager",
+            "product owner",
+            "product management"
+          ],
+          "titleRegex": "\\bproduct (?:managers?|owners?)\\b|\\b(?:director|head) of product(?: management)?\\b|\\bproduct management director\\b",
+          "broadTitleRegex": "\\bproduct lead\\b|\\bproduct strategy manager\\b|\\bgrowth lead\\b",
+          "atsTerms": [
+            "product strategy",
+            "product roadmaps",
+            "prioritization",
+            "stakeholder management",
+            "cross-functional collaboration",
+            "customer discovery",
+            "product requirements",
+            "Agile",
+            "product analytics",
+            "A/B testing",
+            "go-to-market strategy",
+            "user stories",
+            "OKRs",
+            "SQL",
+            "Jira"
+          ],
+          "fitThemes": [
+            [
+              "strategy",
+              "product vision|product strategy|product roadmap"
+            ],
+            [
+              "discovery",
+              "customer discovery|customer interviews|user needs"
+            ],
+            [
+              "prioritization",
+              "prioriti[sz]|backlog|trade[- ]offs"
+            ],
+            [
+              "requirements",
+              "product requirements|user stor(?:y|ies)|acceptance criteria"
+            ],
+            [
+              "delivery",
+              "\\bagile\\b|\\bscrum\\b|cross[- ]functional"
+            ],
+            [
+              "measurement",
+              "product analytics|activation rate|retention rate"
+            ],
+            [
+              "experimentation",
+              "a/b test|experimentation|hypothesis testing"
+            ],
+            [
+              "launch",
+              "go[- ]to[- ]market|product launch|launch readiness"
+            ]
+          ],
+          "testTitles": [
+            "Associate Product Manager",
+            "Senior Product Manager",
+            "Technical Product Manager",
+            "Product Owner",
+            "Director of Product Management"
+          ]
+        },
+        {
+          "name": "Product & UX design",
+          "searchTerms": [
+            "product designer",
+            "UX designer",
+            "interaction designer",
+            "design manager"
+          ],
+          "titleRegex": "\\b(?:product|ux|ui/ux|ux/ui|interaction|user experience) design(?:ers?| managers?| leads?| directors?)\\b|\\b(?:director|head) of (?:product|ux|user experience) design\\b",
+          "broadTitleRegex": "\\bservice designer\\b|\\bdigital designer\\b|\\bdesign systems lead\\b",
+          "atsTerms": [
+            "Figma",
+            "interaction design",
+            "visual design",
+            "prototyping",
+            "design systems",
+            "user-centered design",
+            "wireframing",
+            "usability testing",
+            "accessibility",
+            "information architecture",
+            "design thinking",
+            "responsive design",
+            "user research",
+            "design critique",
+            "WCAG"
+          ],
+          "fitThemes": [
+            [
+              "interaction",
+              "interaction design|user flows|task flows"
+            ],
+            [
+              "visual design",
+              "visual design|typography|visual hierarchy"
+            ],
+            [
+              "prototyping",
+              "prototyp|wirefram|\\bfigma\\b"
+            ],
+            [
+              "design systems",
+              "design system|component library|design tokens"
+            ],
+            [
+              "accessibility",
+              "accessibility|\\bwcag\\b|inclusive design"
+            ],
+            [
+              "usability",
+              "usability test|heuristic evaluation|user[- ]centered design"
+            ],
+            [
+              "information architecture",
+              "information architecture|navigation design|taxonomy"
+            ],
+            [
+              "delivery",
+              "design handoff|design critique|design specifications"
+            ]
+          ],
+          "testTitles": [
+            "Product Designer",
+            "Senior Product Designer",
+            "Staff Product Designer",
+            "UX Designer",
+            "Interaction Designer"
+          ]
+        },
+        {
+          "name": "UX research",
+          "searchTerms": [
+            "UX researcher",
+            "user researcher",
+            "UX research manager"
+          ],
+          "titleRegex": "\\b(?:ux|user experience|design) research(?:ers?| managers?| leads?| directors?)\\b|\\buser researchers?\\b|\\b(?:director|head) of (?:ux|user) research\\b",
+          "broadTitleRegex": "\\bcustomer insights (?:manager|analyst)\\b|\\bconsumer insights researcher\\b|\\bhuman factors researcher\\b",
+          "atsTerms": [
+            "user research",
+            "qualitative research",
+            "usability testing",
+            "user interviews",
+            "research synthesis",
+            "survey design",
+            "mixed methods",
+            "quantitative research",
+            "stakeholder management",
+            "research planning",
+            "ethnography",
+            "participant recruitment",
+            "thematic analysis",
+            "Qualtrics",
+            "UserTesting"
+          ],
+          "fitThemes": [
+            [
+              "research planning",
+              "research plan|research questions|study design"
+            ],
+            [
+              "qualitative methods",
+              "user interviews|qualitative research|ethnograph"
+            ],
+            [
+              "usability",
+              "usability test|task completion|think[- ]aloud"
+            ],
+            [
+              "surveys",
+              "survey design|\\bqualtrics\\b|questionnaire"
+            ],
+            [
+              "quantitative methods",
+              "quantitative research|mixed methods|statistical analysis"
+            ],
+            [
+              "synthesis",
+              "research synthesis|thematic analysis|affinity mapping"
+            ],
+            [
+              "recruitment",
+              "participant recruit|screener|sampling strategy"
+            ],
+            [
+              "stakeholders",
+              "research readout|stakeholder|actionable insights"
+            ]
+          ],
+          "testTitles": [
+            "UX Researcher",
+            "Senior UX Researcher",
+            "Staff User Experience Researcher",
+            "User Researcher",
+            "UX Research Manager"
+          ]
+        },
+        {
+          "name": "Product operations",
+          "searchTerms": [
+            "product operations manager",
+            "product operations analyst",
+            "product ops"
+          ],
+          "titleRegex": "\\bproduct (?:operations|ops) (?:analyst|associate|specialist|manager|lead|director)\\b|\\b(?:director|head) of product operations\\b",
+          "broadTitleRegex": "\\bproduct program manager\\b|\\bproduct enablement manager\\b",
+          "atsTerms": [
+            "product operations",
+            "process improvement",
+            "cross-functional collaboration",
+            "product analytics",
+            "stakeholder management",
+            "product launches",
+            "roadmap planning",
+            "customer feedback",
+            "change management",
+            "documentation",
+            "OKRs",
+            "Jira",
+            "Confluence",
+            "SQL",
+            "Tableau"
+          ],
+          "fitThemes": [
+            [
+              "planning cadence",
+              "roadmap planning|planning cadence|product planning"
+            ],
+            [
+              "launch operations",
+              "launch readiness|release notes|launch process"
+            ],
+            [
+              "feedback",
+              "voice of (?:the )?customer|customer feedback|feedback loop"
+            ],
+            [
+              "measurement",
+              "product analytics|adoption metrics|\\bokrs?\\b"
+            ],
+            [
+              "tooling",
+              "\\bjira\\b|\\bconfluence\\b|product tooling"
+            ],
+            [
+              "process",
+              "process improvement|workflow optimization|standard operating procedures"
+            ],
+            [
+              "enablement",
+              "product enablement|playbook|product training"
+            ],
+            [
+              "alignment",
+              "cross[- ]functional|stakeholder|operating rhythm"
+            ]
+          ],
+          "testTitles": [
+            "Product Operations Analyst",
+            "Product Operations Specialist",
+            "Product Operations Manager",
+            "Senior Product Operations Manager",
+            "Director of Product Operations"
+          ]
+        }
+      ],
+      "titleExcludeRegex": "\\b(?:intern|internship|apprentice|apprenticeship|seasonal)\\b",
+      "seniorityLevels": [
+        "Associate",
+        "Mid",
+        "Senior",
+        "Staff/Principal",
+        "Manager",
+        "Director"
+      ],
+      "seniorityRegex": {
+        "Associate": "\\b(?:associate|junior|jr)\\b",
+        "Senior": "\\b(?:senior|sr)\\b",
+        "Staff/Principal": "\\b(?:staff|principal|lead)\\b",
+        "Manager": "\\bmanager\\b",
+        "Director": "\\bdirector\\b|\\bhead of\\b"
+      },
+      "seniorityOrder": [
+        "Director",
+        "Staff/Principal",
+        "Senior",
+        "Associate",
+        "Manager"
+      ],
+      "seniorityDefault": "Mid"
+    },
+    {
+      "name": "Engineering & data",
+      "summary": "Find software, infrastructure, security, and data roles that build systems or turn data into decisions.",
+      "families": [
+        {
+          "name": "Software engineering",
+          "searchTerms": [
+            "software engineer",
+            "backend engineer",
+            "frontend engineer",
+            "full stack engineer",
+            "software development engineer"
+          ],
+          "titleRegex": "\\bsoftware development engineers?\\b|\\bmember of (?:the )?technical staff\\b|\\b(?:software (?:engineers?|developers?)|(?:front[- ]?end|back[- ]?end|full[- ]stack|mobile|ios|android) (?:software )?(?:engineers?|developers?))\\b",
+          "broadTitleRegex": "\\bsoftware architect\\b|\\bapplication developer\\b|\\bengineering manager\\b",
+          "atsTerms": [
+            "software development",
+            "system design",
+            "REST APIs",
+            "Git",
+            "SQL",
+            "unit testing",
+            "CI/CD",
+            "Java",
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "microservices",
+            "AWS",
+            "Docker"
+          ],
+          "fitThemes": [
+            [
+              "backend",
+              "rest(?:ful)? apis?|microservices|server[- ]side"
+            ],
+            [
+              "frontend",
+              "\\breact\\b|typescript|front[- ]?end"
+            ],
+            [
+              "mobile",
+              "\\bswift\\b|\\bkotlin\\b|mobile development"
+            ],
+            [
+              "architecture",
+              "system design|distributed systems|design patterns"
+            ],
+            [
+              "testing",
+              "unit test|integration test|test automation"
+            ],
+            [
+              "delivery",
+              "ci/cd|pull requests|code review"
+            ],
+            [
+              "persistence",
+              "\\bsql\\b|relational database|\\bpostgresql\\b"
+            ],
+            [
+              "cloud",
+              "\\baws\\b|\\bazure\\b|\\bdocker\\b"
+            ]
+          ],
+          "testTitles": [
+            "Software Engineer II",
+            "Senior Software Engineer, Backend",
+            "Staff Frontend Engineer",
+            "Full Stack Software Engineer",
+            "iOS Engineer",
+            "Software Development Engineer II",
+            "Member of Technical Staff"
+          ]
+        },
+        {
+          "name": "Platform & reliability engineering",
+          "searchTerms": [
+            "platform engineer",
+            "DevOps engineer",
+            "site reliability engineer",
+            "cloud engineer"
+          ],
+          "titleRegex": "\\b(?:platform|devops|site reliability|cloud(?: infrastructure)?|infrastructure) engineers?\\b",
+          "broadTitleRegex": "\\bcloud architect\\b|\\bproduction engineer\\b|\\bbuild and release engineer\\b",
+          "atsTerms": [
+            "Kubernetes",
+            "Terraform",
+            "AWS",
+            "CI/CD",
+            "Linux",
+            "Docker",
+            "Python",
+            "infrastructure as code",
+            "monitoring",
+            "incident response",
+            "observability",
+            "Git",
+            "Prometheus",
+            "Grafana",
+            "Azure"
+          ],
+          "fitThemes": [
+            [
+              "infrastructure as code",
+              "\\bterraform\\b|infrastructure as code|\\bcloudformation\\b"
+            ],
+            [
+              "containers",
+              "\\bkubernetes\\b|\\bdocker\\b|container orchestration"
+            ],
+            [
+              "cloud",
+              "\\baws\\b|\\bazure\\b|google cloud"
+            ],
+            [
+              "delivery pipelines",
+              "ci/cd|deployment pipeline|\\bgitops\\b"
+            ],
+            [
+              "observability",
+              "observability|\\bprometheus\\b|\\bgrafana\\b"
+            ],
+            [
+              "reliability",
+              "error budget|service level objective|\\bslos?\\b"
+            ],
+            [
+              "incident response",
+              "incident response|postmortem|on[- ]call"
+            ],
+            [
+              "systems automation",
+              "\\blinux\\b|\\bbash\\b|automation scripts"
+            ]
+          ],
+          "testTitles": [
+            "Platform Engineer",
+            "Senior DevOps Engineer",
+            "Site Reliability Engineer",
+            "Cloud Infrastructure Engineer",
+            "Staff Infrastructure Engineer"
+          ]
+        },
+        {
+          "name": "Data engineering",
+          "searchTerms": [
+            "data engineer",
+            "analytics engineer",
+            "data platform engineer"
+          ],
+          "titleRegex": "\\b(?:data(?: platform)?|analytics) engineers?\\b",
+          "broadTitleRegex": "\\betl developer\\b|\\bdata architect\\b|\\bdata warehouse developer\\b",
+          "atsTerms": [
+            "SQL",
+            "Python",
+            "data pipelines",
+            "ETL",
+            "data modeling",
+            "data warehousing",
+            "data quality",
+            "Airflow",
+            "Spark",
+            "Snowflake",
+            "dbt",
+            "Databricks",
+            "AWS",
+            "Kafka",
+            "Git"
+          ],
+          "fitThemes": [
+            [
+              "pipelines",
+              "data pipeline|\\betl\\b|\\belt\\b"
+            ],
+            [
+              "modeling",
+              "data modeling|dimensional model|star schema"
+            ],
+            [
+              "warehousing",
+              "data warehouse|\\bsnowflake\\b|\\bbigquery\\b"
+            ],
+            [
+              "orchestration",
+              "\\bairflow\\b|workflow orchestration|\\bdagster\\b"
+            ],
+            [
+              "distributed processing",
+              "\\bspark\\b|\\bdatabricks\\b|distributed processing"
+            ],
+            [
+              "streaming",
+              "\\bkafka\\b|stream processing|change data capture"
+            ],
+            [
+              "quality",
+              "data quality|data validation|data lineage"
+            ],
+            [
+              "transformation",
+              "\\bdbt\\b|sql transformation|semantic layer"
+            ]
+          ],
+          "testTitles": [
+            "Data Engineer",
+            "Senior Data Engineer",
+            "Staff Data Engineer",
+            "Analytics Engineer",
+            "Data Platform Engineer"
+          ]
+        },
+        {
+          "name": "Data analytics & business intelligence",
+          "searchTerms": [
+            "data analyst",
+            "business intelligence analyst",
+            "BI developer",
+            "product analyst"
+          ],
+          "titleRegex": "\\b(?:data|product|business intelligence|bi) analysts?\\b|\\b(?:business intelligence|bi) developers?\\b",
+          "broadTitleRegex": "\\bbusiness analyst\\b|\\breporting analyst\\b|\\banalytics manager\\b",
+          "atsTerms": [
+            "SQL",
+            "data analysis",
+            "Excel",
+            "dashboards",
+            "data visualization",
+            "Tableau",
+            "Power BI",
+            "stakeholder management",
+            "KPIs",
+            "data quality",
+            "Python",
+            "data modeling",
+            "Looker",
+            "A/B testing",
+            "statistical analysis"
+          ],
+          "fitThemes": [
+            [
+              "querying",
+              "\\bsql\\b|window functions|query optimization"
+            ],
+            [
+              "dashboards",
+              "dashboard|\\btableau\\b|power bi|\\blooker\\b"
+            ],
+            [
+              "measurement",
+              "\\bkpis?\\b|metric definition|performance reporting"
+            ],
+            [
+              "product analytics",
+              "funnel analysis|cohort analysis|product usage"
+            ],
+            [
+              "experimentation",
+              "a/b test|experiment analysis|statistical significance"
+            ],
+            [
+              "data quality",
+              "data validation|data quality|reconciliation"
+            ],
+            [
+              "communication",
+              "data storytelling|actionable insights|stakeholder"
+            ],
+            [
+              "modeling",
+              "semantic layer|data modeling|\\bdax\\b"
+            ]
+          ],
+          "testTitles": [
+            "Data Analyst",
+            "Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "BI Developer",
+            "Product Analyst"
+          ]
+        },
+        {
+          "name": "Data science & machine learning",
+          "searchTerms": [
+            "data scientist",
+            "machine learning engineer",
+            "applied scientist",
+            "AI engineer"
+          ],
+          "titleRegex": "\\b(?:data scientists?|applied scientists?|(?:machine learning|ml|ai) engineers?)\\b",
+          "broadTitleRegex": "\\bresearch scientist\\b|\\bdecision scientist\\b|\\bquantitative analyst\\b",
+          "atsTerms": [
+            "Python",
+            "machine learning",
+            "SQL",
+            "statistics",
+            "model evaluation",
+            "feature engineering",
+            "experimentation",
+            "pandas",
+            "scikit-learn",
+            "PyTorch",
+            "TensorFlow",
+            "model deployment",
+            "MLOps",
+            "predictive modeling",
+            "large language models"
+          ],
+          "fitThemes": [
+            [
+              "statistics",
+              "statistical inference|hypothesis test|regression"
+            ],
+            [
+              "modeling",
+              "predictive modeling|supervised learning|feature engineering"
+            ],
+            [
+              "evaluation",
+              "model evaluation|cross[- ]validation|precision and recall"
+            ],
+            [
+              "experimentation",
+              "a/b test|causal inference|experiment design"
+            ],
+            [
+              "deep learning",
+              "deep learning|\\bpytorch\\b|\\btensorflow\\b"
+            ],
+            [
+              "deployment",
+              "\\bmlops\\b|model deployment|model serving"
+            ],
+            [
+              "monitoring",
+              "model monitoring|model drift|data drift"
+            ],
+            [
+              "language models",
+              "large language models?|\\bllms?\\b|natural language processing"
+            ]
+          ],
+          "testTitles": [
+            "Data Scientist",
+            "Senior Data Scientist",
+            "Staff Machine Learning Engineer",
+            "Applied Scientist",
+            "AI Engineer"
+          ]
+        },
+        {
+          "name": "Cybersecurity",
+          "searchTerms": [
+            "security engineer",
+            "cybersecurity analyst",
+            "application security engineer",
+            "cloud security engineer"
+          ],
+          "titleRegex": "^(?!.*\\bphysical security\\b).*\\b(?:(?:cyber ?security|(?:information|application|cloud) security) (?:engineers?|analysts?)|security (?:engineers?|analysts?))\\b",
+          "broadTitleRegex": "\\bsecurity architect\\b|\\biam engineer\\b|\\bsecurity compliance analyst\\b",
+          "atsTerms": [
+            "information security",
+            "incident response",
+            "vulnerability management",
+            "security monitoring",
+            "risk assessment",
+            "network security",
+            "cloud security",
+            "identity and access management",
+            "SIEM",
+            "security controls",
+            "threat detection",
+            "Python",
+            "NIST",
+            "CISSP",
+            "Splunk"
+          ],
+          "fitThemes": [
+            [
+              "monitoring",
+              "\\bsiem\\b|\\bsplunk\\b|security monitoring"
+            ],
+            [
+              "incident response",
+              "incident response|incident triage|security operations center"
+            ],
+            [
+              "vulnerability management",
+              "vulnerability management|remediation tracking|patch management"
+            ],
+            [
+              "cloud security",
+              "cloud security|cloud security posture|cloud security controls"
+            ],
+            [
+              "application security",
+              "secure development|application security|security code review"
+            ],
+            [
+              "identity",
+              "identity and access|\\biam\\b|least privilege"
+            ],
+            [
+              "risk",
+              "security risk|risk assessment|security controls"
+            ],
+            [
+              "frameworks",
+              "\\bnist\\b|iso 27001|\\bcis controls\\b"
+            ]
+          ],
+          "testTitles": [
+            "Security Engineer",
+            "Cybersecurity Analyst",
+            "Information Security Analyst",
+            "Application Security Engineer",
+            "Senior Cloud Security Engineer"
+          ]
+        },
+        {
+          "name": "Hardware & systems engineering",
+          "searchTerms": [
+            "hardware engineer",
+            "electrical engineer",
+            "mechanical engineer",
+            "systems engineer"
+          ],
+          "titleRegex": "^(?!.*\\b(?:field[- ]service|technicians?|software|cloud|it|information technology|network|quality assurance|qa|sdet|test automation|hvac|building services|facilities|construction)\\b).*\\b(?:hardware(?: (?:design|systems|test|validation))?|electrical(?: design)?|mechanical(?: design)?|(?:embedded|hardware|aerospace|avionics) systems|test|manufacturing(?: process)?) engineers?\\b",
+          "broadTitleRegex": "^(?!.*\\b(?:field[- ]service|technicians?)\\b).*\\b(?:systems?|product development|reliability|validation|industrial|process|quality) engineers?\\b",
+          "atsTerms": [
+            "engineering design",
+            "root cause analysis",
+            "test planning",
+            "verification and validation",
+            "requirements management",
+            "troubleshooting",
+            "technical documentation",
+            "data analysis",
+            "CAD",
+            "prototyping",
+            "design reviews",
+            "design for manufacturability",
+            "failure mode and effects analysis",
+            "statistical process control",
+            "geometric dimensioning and tolerancing",
+            "SolidWorks",
+            "MATLAB",
+            "LabVIEW"
+          ],
+          "fitThemes": [
+            [
+              "systems requirements",
+              "requirements traceability|requirements management|interface control documents?"
+            ],
+            [
+              "electrical design",
+              "schematic capture|\\bpcb\\b|circuit design|signal integrity"
+            ],
+            [
+              "mechanical design",
+              "\\bcad\\b|\\bsolidworks\\b|tolerance analysis|\\bgd&t\\b"
+            ],
+            [
+              "prototyping",
+              "hardware bring[- ]up|prototype builds?|engineering prototypes?"
+            ],
+            [
+              "test and validation",
+              "test plans?|verification and validation|environmental testing|\\blabview\\b"
+            ],
+            [
+              "manufacturing",
+              "design for manufacturability|\\bdfm\\b|manufacturing process|production ramp"
+            ],
+            [
+              "failure analysis",
+              "root cause analysis|failure analysis|\\bfmea\\b"
+            ],
+            [
+              "process control",
+              "statistical process control|process capability|\\bcpk\\b"
+            ]
+          ],
+          "testTitles": [
+            "Senior Hardware Engineer",
+            "Electrical Engineer II",
+            "Mechanical Design Engineer",
+            "Staff Hardware Systems Engineer",
+            "Manufacturing Test Engineer"
+          ]
+        }
+      ],
+      "titleExcludeRegex": "\\b(?:intern|internship|apprentice|apprenticeship|seasonal|warehouse)\\b",
+      "seniorityLevels": [
+        "Associate",
+        "Mid",
+        "Senior",
+        "Staff/Principal",
+        "Manager",
+        "Director"
+      ],
+      "seniorityRegex": {
+        "Associate": "\\b(?:associate|junior|jr)\\b|\\b(?:engineer|analyst|scientist) i\\b",
+        "Mid": "\\b(?:engineer|analyst|scientist) ii\\b",
+        "Senior": "\\b(?:senior|sr)\\b",
+        "Staff/Principal": "\\b(?:staff|principal|lead)\\b",
+        "Manager": "\\bmanager\\b",
+        "Director": "\\bdirector\\b|\\bhead of\\b"
+      },
+      "seniorityOrder": [
+        "Director",
+        "Staff/Principal",
+        "Senior",
+        "Associate",
+        "Manager"
+      ],
+      "seniorityDefault": "Mid"
+    },
+    {
+      "name": "Go-to-market",
+      "summary": "Find roles that win customers, grow accounts, market products, or build partnerships.",
+      "families": [
+        {
+          "name": "Sales & business development",
+          "searchTerms": [
+            "account executive",
+            "sales development representative",
+            "business development representative",
+            "sales manager"
+          ],
+          "titleRegex": "^(?!.*\\b(?:retail|store|branch|showroom)\\b).*\\b(?:account executives?|(?:sales|business) development representatives?|(?:enterprise|regional|territory|commercial|inside|national) sales managers?|sales managers?)\\b",
+          "broadTitleRegex": "\\baccount manager\\b|\\bsales director\\b|\\bbusiness development manager\\b",
+          "atsTerms": [
+            "sales pipeline",
+            "prospecting",
+            "Salesforce",
+            "quota attainment",
+            "lead generation",
+            "relationship building",
+            "sales forecasting",
+            "discovery",
+            "negotiation",
+            "closing",
+            "account planning",
+            "outbound sales",
+            "CRM",
+            "MEDDICC",
+            "Sales Navigator"
+          ],
+          "fitThemes": [
+            [
+              "prospecting",
+              "prospecting|outbound|lead generation"
+            ],
+            [
+              "qualification",
+              "lead qualification|discovery calls?|\\bmeddicc?\\b"
+            ],
+            [
+              "pipeline",
+              "pipeline management|pipeline generation|sales funnel"
+            ],
+            [
+              "quota",
+              "quota attainment|sales targets|bookings"
+            ],
+            [
+              "account planning",
+              "account planning|territory planning|stakeholder mapping"
+            ],
+            [
+              "negotiation",
+              "contract negotiation|close deals|sales cycle"
+            ],
+            [
+              "forecasting",
+              "sales forecast|forecast accuracy|deal review"
+            ],
+            [
+              "CRM",
+              "\\bsalesforce\\b|\\bcrm\\b|\\bhubspot\\b"
+            ]
+          ],
+          "testTitles": [
+            "Enterprise Account Executive",
+            "Commercial Account Executive",
+            "Sales Development Representative",
+            "Business Development Representative",
+            "Regional Sales Manager"
+          ]
+        },
+        {
+          "name": "Growth & demand generation",
+          "searchTerms": [
+            "demand generation manager",
+            "growth marketing manager",
+            "digital marketing manager",
+            "performance marketing manager"
+          ],
+          "titleRegex": "\\b(?:demand generation|demand gen|growth marketing|performance marketing|digital marketing|lifecycle marketing|paid media) (?:managers?|specialists?|directors?|leads?)\\b",
+          "broadTitleRegex": "\\bmarketing manager\\b|\\bmarketing campaign manager\\b|\\bacquisition manager\\b",
+          "atsTerms": [
+            "campaign management",
+            "demand generation",
+            "marketing analytics",
+            "lead generation",
+            "paid media",
+            "email marketing",
+            "Google Analytics",
+            "Google Ads",
+            "marketing automation",
+            "A/B testing",
+            "attribution",
+            "SEO",
+            "HubSpot",
+            "Marketo",
+            "conversion rate optimization"
+          ],
+          "fitThemes": [
+            [
+              "pipeline generation",
+              "demand generation|marketing[- ]sourced pipeline|\\bmqls?\\b"
+            ],
+            [
+              "paid acquisition",
+              "paid media|google ads|paid social"
+            ],
+            [
+              "lifecycle",
+              "lifecycle marketing|lead nurturing|email marketing"
+            ],
+            [
+              "optimization",
+              "conversion rate optimization|landing page|a/b test"
+            ],
+            [
+              "attribution",
+              "marketing attribution|multi[- ]touch|\\butm\\b"
+            ],
+            [
+              "automation",
+              "marketing automation|\\bhubspot\\b|\\bmarketo\\b"
+            ],
+            [
+              "organic search",
+              "\\bseo\\b|organic search|keyword research"
+            ],
+            [
+              "economics",
+              "\\bcac\\b|\\broas\\b|cost per acquisition"
+            ]
+          ],
+          "testTitles": [
+            "Demand Generation Manager",
+            "Senior Growth Marketing Manager",
+            "Performance Marketing Manager",
+            "Digital Marketing Specialist",
+            "Lifecycle Marketing Manager"
+          ]
+        },
+        {
+          "name": "Product & brand marketing",
+          "searchTerms": [
+            "product marketing manager",
+            "brand manager",
+            "brand marketing manager",
+            "content marketing manager"
+          ],
+          "titleRegex": "\\b(?:product marketing|brand marketing|content marketing|brand) (?:managers?|specialists?|directors?|leads?)\\b|\\b(?:director|head) of (?:product|brand|content) marketing\\b",
+          "broadTitleRegex": "\\bmarketing communications manager\\b|\\bcontent strategist\\b|\\bmarketing manager\\b",
+          "atsTerms": [
+            "positioning",
+            "messaging",
+            "go-to-market strategy",
+            "market research",
+            "competitive analysis",
+            "customer insights",
+            "product launches",
+            "sales enablement",
+            "content strategy",
+            "brand strategy",
+            "audience segmentation",
+            "storytelling",
+            "copywriting",
+            "campaign management",
+            "marketing analytics"
+          ],
+          "fitThemes": [
+            [
+              "positioning",
+              "positioning|value proposition|messaging framework"
+            ],
+            [
+              "launches",
+              "go[- ]to[- ]market|product launch|launch plan"
+            ],
+            [
+              "research",
+              "market research|customer insights|buyer personas?"
+            ],
+            [
+              "competitive intelligence",
+              "competitive analysis|competitive intelligence|battlecards?"
+            ],
+            [
+              "enablement",
+              "sales enablement|sales collateral|sales training"
+            ],
+            [
+              "brand",
+              "brand strategy|brand guidelines|brand awareness"
+            ],
+            [
+              "content",
+              "content strategy|editorial calendar|copywriting"
+            ],
+            [
+              "segmentation",
+              "audience segmentation|customer segmentation|target audience"
+            ]
+          ],
+          "testTitles": [
+            "Product Marketing Manager",
+            "Senior Product Marketing Manager",
+            "Director of Product Marketing",
+            "Brand Manager",
+            "Content Marketing Manager"
+          ]
+        },
+        {
+          "name": "Customer success",
+          "searchTerms": [
+            "customer success manager",
+            "client success manager",
+            "customer success director"
+          ],
+          "titleRegex": "\\b(?:customer|client) success (?:managers?|specialists?|directors?|leads?)\\b|\\b(?:director|head) of (?:customer|client) success\\b",
+          "broadTitleRegex": "\\b(?:technical account|customer onboarding|customer experience|implementation) manager\\b",
+          "atsTerms": [
+            "customer onboarding",
+            "customer retention",
+            "relationship management",
+            "product adoption",
+            "renewals",
+            "account management",
+            "customer health scores",
+            "success planning",
+            "business reviews",
+            "stakeholder management",
+            "escalation management",
+            "customer advocacy",
+            "expansion",
+            "Salesforce",
+            "Gainsight"
+          ],
+          "fitThemes": [
+            [
+              "onboarding",
+              "customer onboarding|time to value|implementation plan"
+            ],
+            [
+              "adoption",
+              "product adoption|usage metrics|feature adoption"
+            ],
+            [
+              "renewals",
+              "renewal|retention|churn"
+            ],
+            [
+              "expansion",
+              "account expansion|upsell|cross[- ]sell"
+            ],
+            [
+              "health",
+              "customer health|risk signals|\\bgainsight\\b"
+            ],
+            [
+              "success planning",
+              "success plan|business outcomes|value realization"
+            ],
+            [
+              "business reviews",
+              "business review|\\bqbrs?\\b|executive sponsor"
+            ],
+            [
+              "escalation",
+              "escalation management|issue resolution|customer advocacy"
+            ]
+          ],
+          "testTitles": [
+            "Customer Success Manager",
+            "Senior Customer Success Manager",
+            "Enterprise Customer Success Manager",
+            "Client Success Manager",
+            "Director of Customer Success"
+          ]
+        },
+        {
+          "name": "Partnerships & alliances",
+          "searchTerms": [
+            "partnerships manager",
+            "partner manager",
+            "channel account manager",
+            "alliances manager"
+          ],
+          "titleRegex": "\\b(?:(?:partnerships?|alliances?|channel account|channel sales|partner development) (?:managers?|directors?|leads?)|(?:director|head) of (?:strategic )?(?:partnerships|alliances))\\b|\\bpartner managers?\\b",
+          "broadTitleRegex": "\\bbusiness development director\\b|\\bpartner enablement manager\\b|\\becosystem manager\\b",
+          "atsTerms": [
+            "partner management",
+            "relationship management",
+            "business development",
+            "strategic partnerships",
+            "negotiation",
+            "joint business planning",
+            "channel sales",
+            "partner enablement",
+            "go-to-market strategy",
+            "co-selling",
+            "pipeline management",
+            "partner onboarding",
+            "contract management",
+            "Salesforce",
+            "partner marketing"
+          ],
+          "fitThemes": [
+            [
+              "partner strategy",
+              "partner strategy|strategic partnerships|partner ecosystem"
+            ],
+            [
+              "channel sales",
+              "channel sales|reseller|distributor"
+            ],
+            [
+              "co-selling",
+              "co[- ]sell|joint selling|partner[- ]sourced pipeline"
+            ],
+            [
+              "enablement",
+              "partner enablement|partner training|partner onboarding"
+            ],
+            [
+              "planning",
+              "joint business plan|partner business plan|joint go[- ]to[- ]market"
+            ],
+            [
+              "negotiation",
+              "partner agreement|contract negotiation|commercial terms"
+            ],
+            [
+              "performance",
+              "partner performance|partner revenue|partner scorecard"
+            ],
+            [
+              "marketing",
+              "partner marketing|co[- ]marketing|market development funds"
+            ]
+          ],
+          "testTitles": [
+            "Strategic Partnerships Manager",
+            "Partner Manager",
+            "Channel Account Manager",
+            "Alliances Manager",
+            "Director of Partnerships"
+          ]
+        },
+        {
+          "name": "Solutions & sales engineering",
+          "searchTerms": [
+            "solutions engineer",
+            "sales engineer",
+            "solutions architect",
+            "pre-sales engineer"
+          ],
+          "titleRegex": "^(?!.*\\b(?:post[- ]sales|implementation|delivery|internal)\\b).*\\b(?:(?:solutions?|sales|pre[- ]?sales|customer) engineers?|solutions? architects?)\\b",
+          "broadTitleRegex": "\\b(?:solutions? consultant|technical consultant|technical account manager|partner engineer|customer success engineer)\\b",
+          "atsTerms": [
+            "technical discovery",
+            "product demonstrations",
+            "solution design",
+            "customer requirements",
+            "proof of concept",
+            "technical presentations",
+            "stakeholder management",
+            "solution architecture",
+            "sales enablement",
+            "REST APIs",
+            "cloud platforms",
+            "technical documentation",
+            "RFP responses",
+            "Salesforce",
+            "security reviews"
+          ],
+          "fitThemes": [
+            [
+              "discovery",
+              "technical discovery|discovery workshops?|customer requirements"
+            ],
+            [
+              "demonstrations",
+              "product demo|technical demonstration|demo environment"
+            ],
+            [
+              "proof of concept",
+              "proof[- ]of[- ]concept|\\bpocs?\\b|technical evaluation"
+            ],
+            [
+              "solution design",
+              "solution design|solution architecture|reference architecture"
+            ],
+            [
+              "integrations",
+              "rest(?:ful)? apis?|systems integration|single sign[- ]on"
+            ],
+            [
+              "sales execution",
+              "sales cycle|sales enablement|technical win"
+            ],
+            [
+              "proposals",
+              "\\brfps?\\b|\\brfis?\\b|technical proposal"
+            ],
+            [
+              "security reviews",
+              "security questionnaires?|security reviews?|customer security requirements"
+            ]
+          ],
+          "testTitles": [
+            "Senior Solutions Engineer",
+            "Enterprise Sales Engineer",
+            "Solutions Architect",
+            "Pre-Sales Engineer",
+            "Customer Engineer"
+          ]
+        }
+      ],
+      "titleExcludeRegex": "\\b(?:intern|internship|apprentice|apprenticeship|seasonal|retail associate|retail store|door[- ]to[- ]door)\\b",
+      "seniorityLevels": [
+        "Associate",
+        "Mid",
+        "Senior",
+        "Staff/Principal",
+        "Manager",
+        "Director"
+      ],
+      "seniorityRegex": {
+        "Associate": "\\b(?:associate|junior|jr)\\b",
+        "Senior": "\\b(?:senior|sr)\\b",
+        "Staff/Principal": "\\b(?:principal|lead)\\b",
+        "Manager": "\\bmanager\\b",
+        "Director": "\\bdirector\\b|\\bhead of\\b"
+      },
+      "seniorityOrder": [
+        "Director",
+        "Staff/Principal",
+        "Senior",
+        "Associate",
+        "Manager"
+      ],
+      "seniorityDefault": "Mid"
+    },
+    {
+      "name": "Corporate functions",
+      "summary": "Find internal roles in finance, accounting, people, legal, procurement, and corporate IT.",
+      "families": [
+        {
+          "name": "Finance & FP&A",
+          "searchTerms": [
+            "financial analyst",
+            "FP&A analyst",
+            "FP&A manager",
+            "finance manager"
+          ],
+          "titleRegex": "\\bfinancial analysts?\\b|\\b(?:fp&a|financial planning (?:and|&) analysis) (?:analysts?|managers?|directors?)\\b|\\bfinance managers?\\b|\\b(?:director|head) of fp&a\\b",
+          "broadTitleRegex": "\\bbusiness finance partner\\b|\\bcommercial finance lead\\b|\\btreasury analyst\\b",
+          "atsTerms": [
+            "financial modeling",
+            "forecasting",
+            "budgeting",
+            "variance analysis",
+            "Excel",
+            "financial reporting",
+            "financial planning",
+            "business partnering",
+            "scenario analysis",
+            "P&L",
+            "management reporting",
+            "data analysis",
+            "PowerPoint",
+            "Anaplan",
+            "SAP"
+          ],
+          "fitThemes": [
+            [
+              "planning",
+              "financial planning|annual operating plan|budgeting"
+            ],
+            [
+              "forecasting",
+              "rolling forecast|financial forecast|reforecast"
+            ],
+            [
+              "modeling",
+              "financial model|scenario analysis|sensitivity analysis"
+            ],
+            [
+              "variance",
+              "variance analysis|budget to actual|actuals versus budget"
+            ],
+            [
+              "performance",
+              "profitability|\\bp&l\\b|margin analysis"
+            ],
+            [
+              "reporting",
+              "management reporting|financial reporting|board materials"
+            ],
+            [
+              "business partnering",
+              "business partner|decision support|cross[- ]functional"
+            ],
+            [
+              "planning tools",
+              "\\banaplan\\b|\\bexcel\\b|adaptive planning"
+            ]
+          ],
+          "testTitles": [
+            "Financial Analyst",
+            "Senior Financial Analyst",
+            "FP&A Analyst",
+            "FP&A Manager",
+            "Finance Manager"
+          ]
+        },
+        {
+          "name": "Accounting & controllership",
+          "searchTerms": [
+            "staff accountant",
+            "senior accountant",
+            "accounting manager",
+            "controller"
+          ],
+          "titleRegex": "\\b(?:staff|senior|corporate|general ledger|technical|tax) accountants?\\b|^accountant(?:\\s+(?:i{1,3}|[1-3]))?$|\\baccounting managers?\\b|\\b(?:corporate|assistant|financial) controllers?\\b|^controller$",
+          "broadTitleRegex": "\\bfinancial reporting manager\\b|\\binternal auditor\\b|\\btax analyst\\b",
+          "atsTerms": [
+            "US GAAP",
+            "month-end close",
+            "general ledger",
+            "journal entries",
+            "account reconciliations",
+            "financial statements",
+            "Excel",
+            "internal controls",
+            "audit support",
+            "CPA",
+            "ERP",
+            "revenue recognition",
+            "SOX",
+            "NetSuite",
+            "SAP"
+          ],
+          "fitThemes": [
+            [
+              "close",
+              "month[- ]end close|quarter[- ]end close|close process"
+            ],
+            [
+              "general ledger",
+              "general ledger|journal entr(?:y|ies)|accruals"
+            ],
+            [
+              "reconciliations",
+              "account reconciliation|bank reconciliation|balance sheet reconciliation"
+            ],
+            [
+              "reporting",
+              "financial statements|financial reporting|consolidation"
+            ],
+            [
+              "standards",
+              "\\bgaap\\b|accounting standards|technical accounting"
+            ],
+            [
+              "revenue",
+              "revenue recognition|\\basc 606\\b|deferred revenue"
+            ],
+            [
+              "controls",
+              "\\bsox\\b|internal controls|audit support"
+            ],
+            [
+              "systems",
+              "\\bnetsuite\\b|\\bsap\\b|\\berp\\b"
+            ]
+          ],
+          "testTitles": [
+            "Staff Accountant",
+            "Senior Accountant",
+            "Technical Accountant",
+            "Accounting Manager",
+            "Assistant Controller"
+          ]
+        },
+        {
+          "name": "HR & people",
+          "searchTerms": [
+            "HR business partner",
+            "HR generalist",
+            "talent acquisition",
+            "people operations"
+          ],
+          "titleRegex": "\\b(?:hr|human resources) (?:business partners?|generalists?|managers?|specialists?)\\b|\\b(?:people business partners?|people operations (?:specialists?|managers?)|talent acquisition (?:partners?|specialists?|managers?)|(?:corporate|technical) recruiters?)\\b|\\b(?:senior |sr\\.? |lead |principal |staff )?recruiters?\\b",
+          "broadTitleRegex": "\\bcompensation analyst\\b|\\bhris analyst\\b|\\bemployee relations manager\\b",
+          "atsTerms": [
+            "employee relations",
+            "HR policies",
+            "performance management",
+            "employee engagement",
+            "talent acquisition",
+            "HRIS",
+            "onboarding",
+            "employment law",
+            "Workday",
+            "change management",
+            "talent management",
+            "workforce planning",
+            "coaching",
+            "organizational development",
+            "HR analytics"
+          ],
+          "fitThemes": [
+            [
+              "employee relations",
+              "employee relations|workplace investigations|grievances"
+            ],
+            [
+              "performance",
+              "performance management|performance reviews|manager coaching"
+            ],
+            [
+              "recruiting",
+              "talent acquisition|candidate sourcing|full[- ]cycle recruit"
+            ],
+            [
+              "engagement",
+              "employee engagement|engagement surveys|employee experience"
+            ],
+            [
+              "workforce planning",
+              "workforce planning|succession planning|talent planning"
+            ],
+            [
+              "HR systems",
+              "\\bhris\\b|\\bworkday\\b|people analytics"
+            ],
+            [
+              "policy",
+              "hr policies|employment law|employee handbook"
+            ],
+            [
+              "onboarding",
+              "employee onboarding|new hire orientation|employee lifecycle"
+            ]
+          ],
+          "testTitles": [
+            "HR Business Partner",
+            "Senior Human Resources Generalist",
+            "People Operations Manager",
+            "Talent Acquisition Partner",
+            "Technical Recruiter",
+            "Senior Recruiter"
+          ]
+        },
+        {
+          "name": "Legal & compliance",
+          "searchTerms": [
+            "corporate counsel",
+            "legal counsel",
+            "paralegal",
+            "compliance analyst"
+          ],
+          "titleRegex": "\\b(?:corporate counsel|(?:legal|commercial|general|privacy|employment) counsel|paralegals?|compliance (?:analysts?|specialists?|managers?|officers?))\\b",
+          "broadTitleRegex": "\\bcontracts manager\\b|\\blegal operations manager\\b|\\bprivacy analyst\\b",
+          "atsTerms": [
+            "regulatory compliance",
+            "contract review",
+            "legal research",
+            "risk assessment",
+            "contract drafting",
+            "policy development",
+            "due diligence",
+            "corporate governance",
+            "document management",
+            "contract negotiation",
+            "internal controls",
+            "regulatory filings",
+            "privacy",
+            "investigations",
+            "compliance training"
+          ],
+          "fitThemes": [
+            [
+              "commercial contracts",
+              "commercial agreements|contract drafting|contract negotiation"
+            ],
+            [
+              "legal research",
+              "legal research|case law|legal memoranda"
+            ],
+            [
+              "governance",
+              "corporate governance|board minutes|entity management"
+            ],
+            [
+              "regulatory compliance",
+              "regulatory compliance|regulatory filings|regulatory requirements"
+            ],
+            [
+              "privacy",
+              "data privacy|privacy policies|data protection"
+            ],
+            [
+              "risk",
+              "risk assessment|due diligence|internal controls"
+            ],
+            [
+              "investigations",
+              "internal investigations|compliance monitoring|case management"
+            ],
+            [
+              "policies",
+              "policy development|compliance training|code of conduct"
+            ]
+          ],
+          "testTitles": [
+            "Corporate Counsel",
+            "Senior Legal Counsel",
+            "Commercial Counsel",
+            "Corporate Paralegal",
+            "Compliance Analyst"
+          ]
+        },
+        {
+          "name": "Procurement & sourcing",
+          "searchTerms": [
+            "procurement specialist",
+            "procurement manager",
+            "strategic sourcing manager",
+            "category manager"
+          ],
+          "titleRegex": "\\b(?:procurement (?:analysts?|specialists?|managers?|directors?)|strategic sourcing (?:analysts?|specialists?|managers?|directors?)|purchasing managers?)\\b",
+          "broadTitleRegex": "\\bcategory manager\\b|\\bvendor manager\\b|\\b(?:senior|corporate) buyer\\b",
+          "atsTerms": [
+            "strategic sourcing",
+            "supplier management",
+            "contract negotiation",
+            "procurement",
+            "spend analysis",
+            "cost savings",
+            "category management",
+            "RFPs",
+            "supplier performance",
+            "purchase orders",
+            "vendor risk management",
+            "Excel",
+            "ERP",
+            "SAP Ariba",
+            "Coupa"
+          ],
+          "fitThemes": [
+            [
+              "sourcing",
+              "strategic sourcing|competitive bidding|\\brf[pxqi]s?\\b"
+            ],
+            [
+              "category strategy",
+              "category strategy|category management|sourcing strategy"
+            ],
+            [
+              "spend",
+              "spend analysis|cost savings|total cost of ownership"
+            ],
+            [
+              "negotiation",
+              "contract negotiation|commercial terms|supplier agreement"
+            ],
+            [
+              "supplier performance",
+              "supplier performance|supplier scorecards|vendor management"
+            ],
+            [
+              "supplier risk",
+              "supplier risk|vendor risk|supplier due diligence"
+            ],
+            [
+              "purchasing",
+              "purchase orders?|procure[- ]to[- ]pay|purchase requisitions?"
+            ],
+            [
+              "systems",
+              "\\bariba\\b|\\bcoupa\\b|e[- ]procurement"
+            ]
+          ],
+          "testTitles": [
+            "Procurement Analyst",
+            "Procurement Specialist",
+            "Procurement Manager",
+            "Strategic Sourcing Manager",
+            "Purchasing Manager"
+          ]
+        },
+        {
+          "name": "Corporate IT",
+          "searchTerms": [
+            "IT support specialist",
+            "systems administrator",
+            "IT manager",
+            "business systems analyst"
+          ],
+          "titleRegex": "\\b(?:it (?:support (?:specialists?|analysts?|engineers?)|managers?)|systems administrators?|network administrators?|business systems analysts?|service desk analysts?)\\b|\\b(?:director|head) of (?:it|information technology)\\b",
+          "broadTitleRegex": "\\bdesktop support engineer\\b|\\benterprise applications analyst\\b|\\bnetwork engineer\\b",
+          "atsTerms": [
+            "troubleshooting",
+            "technical support",
+            "Microsoft 365",
+            "Active Directory",
+            "Windows",
+            "ticketing systems",
+            "IT service management",
+            "incident management",
+            "ServiceNow",
+            "networking",
+            "endpoint management",
+            "PowerShell",
+            "access management",
+            "ITIL",
+            "Intune"
+          ],
+          "fitThemes": [
+            [
+              "support",
+              "technical support|service desk|troubleshoot"
+            ],
+            [
+              "identity",
+              "active directory|entra id|access management"
+            ],
+            [
+              "endpoint management",
+              "\\bintune\\b|endpoint management|device provisioning"
+            ],
+            [
+              "workplace applications",
+              "microsoft 365|office 365|google workspace"
+            ],
+            [
+              "service management",
+              "\\bservicenow\\b|\\bitil\\b|incident management"
+            ],
+            [
+              "networking",
+              "\\bdns\\b|\\bdhcp\\b|\\bvpn\\b"
+            ],
+            [
+              "automation",
+              "\\bpowershell\\b|system automation|administrative scripting"
+            ],
+            [
+              "business systems",
+              "requirements gathering|enterprise applications|system configuration"
+            ]
+          ],
+          "testTitles": [
+            "IT Support Specialist",
+            "Systems Administrator",
+            "IT Manager",
+            "Business Systems Analyst",
+            "Service Desk Analyst"
+          ]
+        }
+      ],
+      "titleExcludeRegex": "\\b(?:intern|internship|apprentice|apprenticeship|seasonal|warehouse|retail store)\\b",
+      "seniorityLevels": [
+        "Associate",
+        "Mid",
+        "Senior",
+        "Staff/Principal",
+        "Manager",
+        "Director"
+      ],
+      "seniorityRegex": {
+        "Associate": "\\b(?:associate|junior|jr)\\b",
+        "Senior": "\\b(?:senior|sr)\\b",
+        "Staff/Principal": "\\b(?:principal|lead)\\b",
+        "Manager": "\\bmanager\\b",
+        "Director": "\\bdirector\\b|\\bhead of\\b"
+      },
+      "seniorityOrder": [
+        "Director",
+        "Staff/Principal",
+        "Senior",
+        "Associate",
+        "Manager"
+      ],
+      "seniorityDefault": "Mid"
+    },
+    {
+      "name": "General",
+      "summary": "Find a broad starting set of corporate roles in analysis, coordination, administration, and client services.",
+      "families": [
+        {
+          "name": "Business analysis",
+          "searchTerms": [
+            "business analyst",
+            "business systems analyst",
+            "reporting analyst"
+          ],
+          "titleRegex": "\\b(?:business(?: systems)?|reporting|business process) analysts?\\b",
+          "broadTitleRegex": "\\b(?:operations|data|management|planning) analyst\\b",
+          "atsTerms": [
+            "business analysis",
+            "requirements gathering",
+            "stakeholder management",
+            "data analysis",
+            "Excel",
+            "process mapping",
+            "documentation",
+            "SQL",
+            "user acceptance testing",
+            "reporting",
+            "process improvement",
+            "Power BI",
+            "Jira",
+            "Agile",
+            "Visio"
+          ],
+          "fitThemes": [
+            [
+              "requirements",
+              "requirements gathering|business requirements|functional requirements"
+            ],
+            [
+              "process mapping",
+              "process map|current state|future state"
+            ],
+            [
+              "analysis",
+              "data analysis|gap analysis|root cause analysis"
+            ],
+            [
+              "reporting",
+              "dashboard|reporting|\\bpower bi\\b"
+            ],
+            [
+              "testing",
+              "user acceptance testing|\\buat\\b|acceptance criteria"
+            ],
+            [
+              "documentation",
+              "process documentation|business specifications|user stor(?:y|ies)"
+            ],
+            [
+              "tools",
+              "\\bexcel\\b|\\bsql\\b|\\bvisio\\b"
+            ],
+            [
+              "stakeholders",
+              "stakeholder interview|requirements workshop|cross[- ]functional"
+            ]
+          ],
+          "testTitles": [
+            "Business Analyst",
+            "Senior Business Analyst",
+            "Business Systems Analyst",
+            "Reporting Analyst",
+            "Business Process Analyst"
+          ]
+        },
+        {
+          "name": "Project & program coordination",
+          "searchTerms": [
+            "project coordinator",
+            "program coordinator",
+            "project specialist",
+            "project analyst"
+          ],
+          "titleRegex": "\\b(?:project|program) (?:coordinators?|specialists?|analysts?)\\b",
+          "broadTitleRegex": "\\bpmo analyst\\b|\\bimplementation coordinator\\b|\\bassociate project manager\\b",
+          "atsTerms": [
+            "project coordination",
+            "scheduling",
+            "stakeholder communication",
+            "Microsoft Office",
+            "Excel",
+            "documentation",
+            "status reporting",
+            "project planning",
+            "meeting facilitation",
+            "milestone tracking",
+            "risk tracking",
+            "budget tracking",
+            "Smartsheet",
+            "Jira",
+            "SharePoint"
+          ],
+          "fitThemes": [
+            [
+              "coordination",
+              "project coordination|program coordination|workstream"
+            ],
+            [
+              "scheduling",
+              "scheduling|project timeline|milestone"
+            ],
+            [
+              "meetings",
+              "meeting agendas?|meeting minutes|action items"
+            ],
+            [
+              "reporting",
+              "status report|progress tracking|project dashboard"
+            ],
+            [
+              "documentation",
+              "project documentation|document control|\\bsharepoint\\b"
+            ],
+            [
+              "risk tracking",
+              "risk tracking|issue log|escalation"
+            ],
+            [
+              "budgets",
+              "budget tracking|expense tracking|purchase orders?"
+            ],
+            [
+              "tools",
+              "\\bsmartsheet\\b|\\bjira\\b|microsoft project"
+            ]
+          ],
+          "testTitles": [
+            "Project Coordinator",
+            "Senior Project Coordinator",
+            "Program Coordinator",
+            "Project Specialist",
+            "Project Analyst"
+          ]
+        },
+        {
+          "name": "Business operations",
+          "searchTerms": [
+            "operations analyst",
+            "business operations specialist",
+            "operations coordinator",
+            "business operations manager"
+          ],
+          "titleRegex": "\\b(?:business operations (?:analysts?|specialists?|coordinators?|managers?)|operations (?:analysts?|specialists?|coordinators?))\\b",
+          "broadTitleRegex": "\\boperations manager\\b|\\bprocess improvement specialist\\b|\\bworkflow analyst\\b",
+          "atsTerms": [
+            "operations management",
+            "process improvement",
+            "Excel",
+            "data analysis",
+            "reporting",
+            "KPIs",
+            "cross-functional collaboration",
+            "documentation",
+            "workflow management",
+            "root cause analysis",
+            "standard operating procedures",
+            "quality assurance",
+            "capacity planning",
+            "SQL",
+            "Power BI"
+          ],
+          "fitThemes": [
+            [
+              "workflow",
+              "workflow management|operational workflow|process mapping"
+            ],
+            [
+              "improvement",
+              "process improvement|continuous improvement|root cause analysis"
+            ],
+            [
+              "reporting",
+              "operational reporting|\\bkpis?\\b|scorecards?"
+            ],
+            [
+              "documentation",
+              "standard operating procedures|process documentation|playbook"
+            ],
+            [
+              "quality",
+              "quality assurance|quality control|error rate"
+            ],
+            [
+              "capacity",
+              "capacity planning|workload|resource allocation"
+            ],
+            [
+              "analysis",
+              "\\bexcel\\b|\\bsql\\b|data analysis"
+            ],
+            [
+              "coordination",
+              "cross[- ]functional|stakeholder|operational support"
+            ]
+          ],
+          "testTitles": [
+            "Operations Analyst",
+            "Operations Coordinator",
+            "Operations Specialist",
+            "Business Operations Specialist",
+            "Business Operations Manager"
+          ]
+        },
+        {
+          "name": "Executive & administrative support",
+          "searchTerms": [
+            "executive assistant",
+            "administrative assistant",
+            "administrative coordinator",
+            "office manager"
+          ],
+          "titleRegex": "^(?!.*\\b(?:front|medical|dental|clinical|school) office\\b).*\\b(?:executive assistants?|administrative (?:assistants?|coordinators?|specialists?)|office managers?)\\b",
+          "broadTitleRegex": "\\bexecutive business partner\\b|\\boffice coordinator\\b|\\bworkplace coordinator\\b",
+          "atsTerms": [
+            "calendar management",
+            "travel arrangements",
+            "expense reporting",
+            "Microsoft Office",
+            "scheduling",
+            "executive support",
+            "written communication",
+            "meeting coordination",
+            "confidentiality",
+            "event planning",
+            "vendor management",
+            "document management",
+            "Outlook",
+            "Concur",
+            "PowerPoint"
+          ],
+          "fitThemes": [
+            [
+              "calendars",
+              "calendar management|complex scheduling|\\boutlook\\b"
+            ],
+            [
+              "travel",
+              "travel arrangements|travel coordination|travel itinerar"
+            ],
+            [
+              "expenses",
+              "expense report|expense reimbursement|\\bconcur\\b"
+            ],
+            [
+              "meetings",
+              "meeting coordination|meeting agendas?|meeting logistics"
+            ],
+            [
+              "executive support",
+              "executive support|senior leadership|board meeting"
+            ],
+            [
+              "communications",
+              "written communication|correspondence|presentation materials"
+            ],
+            [
+              "office operations",
+              "office operations|vendor management|office supplies"
+            ],
+            [
+              "confidentiality",
+              "confidential information|discretion|sensitive information"
+            ]
+          ],
+          "testTitles": [
+            "Executive Assistant",
+            "Senior Executive Assistant",
+            "Administrative Assistant",
+            "Administrative Coordinator",
+            "Office Manager"
+          ]
+        },
+        {
+          "name": "Client services & implementation",
+          "searchTerms": [
+            "client services associate",
+            "client services manager",
+            "implementation specialist",
+            "implementation manager"
+          ],
+          "titleRegex": "\\b(?:client services? (?:associates?|specialists?|managers?)|implementation (?:specialists?|consultants?|managers?)|customer onboarding specialists?)\\b",
+          "broadTitleRegex": "\\baccount coordinator\\b|\\bclient relationship manager\\b|\\bclient success manager\\b",
+          "atsTerms": [
+            "client relationship management",
+            "customer onboarding",
+            "implementation planning",
+            "project coordination",
+            "stakeholder communication",
+            "issue resolution",
+            "customer training",
+            "requirements gathering",
+            "process documentation",
+            "CRM",
+            "Salesforce",
+            "data migration",
+            "system configuration",
+            "service level agreements",
+            "Excel"
+          ],
+          "fitThemes": [
+            [
+              "onboarding",
+              "client onboarding|customer onboarding|kickoff"
+            ],
+            [
+              "implementation",
+              "implementation planning|implementation plan|go[- ]live"
+            ],
+            [
+              "relationships",
+              "client relationship|client communication|stakeholder"
+            ],
+            [
+              "requirements",
+              "requirements gathering|business requirements|discovery session"
+            ],
+            [
+              "configuration",
+              "system configuration|data migration|integration requirements"
+            ],
+            [
+              "training",
+              "customer training|client training|training materials"
+            ],
+            [
+              "service delivery",
+              "service level|\\bslas?\\b|issue resolution|escalation"
+            ],
+            [
+              "CRM",
+              "\\bsalesforce\\b|\\bcrm\\b|account documentation"
+            ]
+          ],
+          "testTitles": [
+            "Client Services Associate",
+            "Client Service Manager",
+            "Implementation Specialist",
+            "Implementation Consultant",
+            "Implementation Manager"
+          ]
+        }
+      ],
+      "titleExcludeRegex": "\\b(?:intern|internship|apprentice|apprenticeship|seasonal|warehouse|fulfillment|distribution center|retail|store|clinical|patient|nursing|restaurant|food service|hourly)\\b",
+      "seniorityLevels": [
+        "Associate",
+        "Mid",
+        "Senior",
+        "Staff/Principal",
+        "Manager",
+        "Director"
+      ],
+      "seniorityRegex": {
+        "Associate": "\\b(?:associate|junior|jr)\\b",
+        "Senior": "\\b(?:senior|sr)\\b",
+        "Staff/Principal": "\\b(?:principal|lead)\\b",
+        "Manager": "\\bmanager\\b",
+        "Director": "\\bdirector\\b|\\bhead of\\b"
+      },
+      "seniorityOrder": [
+        "Director",
+        "Staff/Principal",
+        "Senior",
+        "Associate",
+        "Manager"
+      ],
+      "seniorityDefault": "Mid"
+    }
+  ]
+}

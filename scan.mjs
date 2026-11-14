@@ -10,7 +10,8 @@ const CATALOG = JSON.parse(fs.readFileSync('catalog.json', 'utf8'));
 const PREV = fs.existsSync('prev/jobs.json') ? JSON.parse(fs.readFileSync('prev/jobs.json', 'utf8')) : { jobs: [] };
 const firstSeen = new Map(PREV.jobs.map(j => [j.key, j.firstSeen]));
 const NOW = new Date().toISOString();
-const SLOW_MS = 9000;          // a board slower than this is "slow"; 2 slow runs in a row = drop candidate
+const SET = JSON.parse(fs.readFileSync('settings.json', 'utf8'));
+const SLOW_MS = SET.slowMs || 9000;   // a single response slower than this is "slow"
 const CONCURRENCY = 12;
 const UA = 'Mozilla/5.0 (compatible; OfferlineScanner/0.1; +https://github.com/offerline)';
 
@@ -204,9 +205,31 @@ for (const j of PREV.jobs) {
   if (!closed && j.firstSeen > cutoff) jobs.push(j);
 }
 
-const prevHealth = fs.existsSync('prev/health.json') ? JSON.parse(fs.readFileSync('prev/health.json', 'utf8')) : { boards: [] };
-const wasSlow = new Set(prevHealth.boards.filter(b => b.slow).map(b => b.name));
-for (const h of health) { h.slow = h.slowestMs > SLOW_MS; h.dropCandidate = h.slow && wasSlow.has(h.name); }
+// Slow boards. Each board's slowest response per scan is kept for SET.historyDays days, labelled busy (inside the
+// weekday busy window, 12-1pm Pacific to start) or off-peak. Slowness in the busy window never makes a drop
+// candidate. A board is a drop candidate when it was slow in most off-peak scans (or failed them) on each of the
+// last SET.dropRule.days days that had off-peak scans. The maintainer confirms any removal.
+const BW = SET.busyWindow, DR = SET.dropRule;
+const localParts = d => { const f = new Intl.DateTimeFormat('en-US', { timeZone: BW.timeZone, hour: 'numeric', hourCycle: 'h23', weekday: 'short', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(d);
+  const g = t => f.find(x => x.type === t).value; return { hour: +g('hour'), wd: g('weekday'), day: `${g('year')}-${g('month')}-${g('day')}` }; };
+const nowL = localParts(new Date(NOW));
+const busyScan = nowL.hour >= BW.startHour && nowL.hour < BW.endHour && (!BW.weekdaysOnly || !['Sat', 'Sun'].includes(nowL.wd));
+const hist = fs.existsSync('prev/board-history.json') ? JSON.parse(fs.readFileSync('prev/board-history.json', 'utf8')) : {};
+const keepAfter = Date.now() - (SET.historyDays || 7) * 864e5;
+for (const h of health) {
+  const rows = (hist[h.name] || []).filter(r => Date.parse(r.t) > keepAfter);
+  rows.push({ t: NOW, day: nowL.day, hour: nowL.hour, busy: busyScan, ms: h.slowestMs || 0, ok: h.ok });
+  hist[h.name] = rows;
+  h.slow = (h.slowestMs || 0) > SLOW_MS;
+  const offDays = [...new Set(rows.filter(r => !r.busy).map(r => r.day))].sort().slice(-DR.days);
+  const badDay = d => { const rs = rows.filter(r => !r.busy && r.day === d); const bad = rs.filter(r => !r.ok || r.ms > SLOW_MS).length; return rs.length && bad / rs.length > DR.shareOfOffPeakScansSlow; };
+  h.dropCandidate = offDays.length >= DR.days && offDays.every(badDay);
+  h.slowOnlyWhenBusy = !h.dropCandidate && rows.some(r => r.busy && r.ms > SLOW_MS) && !rows.some(r => !r.busy && r.ms > SLOW_MS);
+}
+for (const n of Object.keys(hist)) if (!health.find(h => h.name === n)) delete hist[n];   // removed from the catalog
+// When were boards slow? Count of slow responses by Pacific hour over the last 3 days, to spot a moving busy window.
+const slowByHour = {};
+for (const rows of Object.values(hist)) for (const r of rows) if (Date.parse(r.t) > Date.now() - 3 * 864e5 && r.ms > SLOW_MS) slowByHour[r.hour] = (slowByHour[r.hour] || 0) + 1;
 health.sort((a, b) => a.name.localeCompare(b.name));
 
 fs.mkdirSync('out', { recursive: true });
@@ -214,7 +237,8 @@ fs.writeFileSync('out/jobs.json', JSON.stringify({ scannedAt: NOW, count: jobs.l
 const summary = { scannedAt: NOW, seconds: Math.round((Date.now() - started) / 1000), requests, boards: health.length,
   ok: health.filter(h => h.ok).length, failed: health.filter(h => !h.ok).length, slow: health.filter(h => h.slow).length, usJobs: jobs.length,
   newJobs: jobs.filter(j => j.firstSeen === NOW).length };
-fs.writeFileSync('out/health.json', JSON.stringify({ ...summary, boards: health }, null, 1));
+fs.writeFileSync('out/health.json', JSON.stringify({ ...summary, busyScan, slowByHour, boards: health }, null, 1));
+fs.writeFileSync('out/board-history.json', JSON.stringify(hist));
 fs.appendFileSync('out/history.jsonl', JSON.stringify(summary) + '\n');
 
 // Readable report for the Actions run page.
@@ -227,7 +251,13 @@ const lines = [
   ...fail.map(h => `- ${h.name} (${h.method}): ${h.error}`),
   '', `**Read fine but under 20 US jobs (${health.filter(h => h.ok && h.us < 20).length})**`,
   ...health.filter(h => h.ok && h.us < 20).map(h => `- ${h.name} (${h.method}): ${h.us} US of ${h.read} read · other locations: ${(h.notUS || []).join(' / ')}`),
-  '', `**A response slower than ${SLOW_MS / 1000}s (${slow.length})**`, ...slow.map(h => `- ${h.name} (${h.method}): ${(h.slowestMs / 1000).toFixed(1)}s${h.dropCandidate ? ' · slow twice in a row' : ''}`),
+  '', `**A response slower than ${SLOW_MS / 1000}s this scan (${slow.length})**${busyScan ? ' · inside the busy window, so none of these count toward dropping' : ''}`,
+  ...slow.map(h => `- ${h.name} (${h.method}): ${(h.slowestMs / 1000).toFixed(1)}s`),
+  '', `**Drop candidates: slow or failing in most off-peak scans on ${DR.days} days in a row (${health.filter(h => h.dropCandidate).length})** · confirm before removing`,
+  ...health.filter(h => h.dropCandidate).map(h => `- ${h.name} (${h.method})`),
+  '', `**Slow only in the busy window (${health.filter(h => h.slowOnlyWhenBusy).length})** · noted, not dropped: ${health.filter(h => h.slowOnlyWhenBusy).map(h => h.name).join(', ') || 'none'}`,
+  '', `**When boards were slow, last 3 days (Pacific hour: slow responses)** · busy window ${BW.startHour}:00-${BW.endHour}:00`,
+  Object.keys(slowByHour).length ? Object.entries(slowByHour).sort((a, b) => a[0] - b[0]).map(([h, n]) => `${h}:00 ${n}`).join(' · ') : 'none',
 ];
 fs.writeFileSync('out/report.md', lines.join('\n') + '\n');
 console.log(lines.join('\n'));

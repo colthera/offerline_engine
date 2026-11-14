@@ -1,0 +1,7 @@
+{
+  "_note": "Engine settings. busyWindow: hours (Pacific, weekdays) when job boards are known to slow down; slowness inside it never makes a company a drop candidate. Review the 'When boards were slow' table in each report; if slowness moves for 3 days running, change the window here.",
+  "slowMs": 9000,
+  "busyWindow": { "timeZone": "America/Los_Angeles", "startHour": 12, "endHour": 13, "weekdaysOnly": true },
+  "dropRule": { "days": 2, "shareOfOffPeakScansSlow": 0.5 },
+  "historyDays": 7
+}

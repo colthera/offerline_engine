@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir -p prev out
           if git fetch --depth=1 origin data:refs/remotes/origin/data 2>/dev/null; then
-            for f in jobs.json health.json history.jsonl; do git show origin/data:$f > prev/$f 2>/dev/null || true; done
+            for f in jobs.json health.json history.jsonl board-history.json; do git show origin/data:$f > prev/$f 2>/dev/null || true; done
             cp prev/history.jsonl out/history.jsonl 2>/dev/null || true
           fi
       - name: Skip if the last scan is under 40 minutes old

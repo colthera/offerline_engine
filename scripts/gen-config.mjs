@@ -26,7 +26,7 @@ const titleRegex = join(...chosen.map(f => f.titleRegex), words(P.extraTitles));
 const broadTitleRegex = P.adjacentOff ? '' : join(...chosen.map(f => f.broadTitleRegex), words(P.adjacentTitles));
 const titleExcludeRegex = join(pack.titleExcludeRegex, words(P.excludeTitleWords));
 // Seniority the user doesn't want (e.g. "Director") becomes a title drop, using the pack's seniority patterns.
-const dropRegex = join(...(P.excludeSeniority || []).map(s => pack.seniorityRegex?.[s]).filter(Boolean), words(P.excludeTitlePhrases));
+const dropRegex = join(...(P.excludeSeniority || []).map(s => pack.seniorityRegex?.[s]).filter(Boolean), words(P.excludeTitlePhrases), P.extraDropRegex || '');   // extraDropRegex: a raw pattern carried over from an older setup
 
 // Locations: the scan is US-only already, so "anywhere in the US" means no location filter at all.
 const L = P.locations || {};
@@ -42,6 +42,7 @@ for (const [label, list] of P.fitThemes || []) themes.set(label, (Array.isArray(
 const config = {
   _generated: `from profile.json by gen-config.mjs on ${new Date().toISOString().slice(0, 10)}. Edit the profile, not this file.`,
   ntfyTopic: P.ntfyTopic || '',
+  ...(P.engineRef ? { engineRef: P.engineRef } : {}),   // "next" = the maintainer's test track
   timeZone: P.timeZone || 'America/Los_Angeles',
   quietEnd: P.activeFrom ?? 5,
   quietStart: P.activeUntil ?? 24,

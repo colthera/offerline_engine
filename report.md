@@ -1,0 +1,238 @@
+## Offerline scan · 2026-11-14T01:07:17.998Z
+238 of 464 boards read in 615s with 1413 requests. 65470 US jobs, 111 new.
+
+**Failed (226)** · by reason: 429 ×1, 521 ×225
+- 3M (workday): HTTP 521
+- Abbott (workday): HTTP 521
+- Ace Hardware (workday): HTTP 521
+- Adobe (workday): HTTP 521
+- AES (workday): HTTP 521
+- Air Products (workday): HTTP 521
+- Albemarle (workday): HTTP 521
+- Alcon (workday): HTTP 521
+- Allegion (workday): HTTP 521
+- Ally Financial (workday): HTTP 521
+- Altera (workday): HTTP 521
+- Amentum (workday): HTTP 521
+- Ameren (workday): HTTP 521
+- American Electric Power (workday): HTTP 521
+- Ameriprise Financial (workday): HTTP 521
+- Amgen (workday): HTTP 521
+- Analog Devices (workday): HTTP 521
+- Applied Materials (workday): HTTP 521
+- Arctic Wolf (workday): HTTP 521
+- Armanino (workday): HTTP 521
+- AT&T (workday): HTTP 521
+- athenahealth (workday): HTTP 521
+- Axalta Coating Systems (workday): HTTP 521
+- Axcelis Technologies (workday): HTTP 521
+- Baker Tilly (workday): HTTP 521
+- Barry-Wehmiller (workday): HTTP 521
+- Baxter (workday): HTTP 521
+- BD (workday): HTTP 521
+- Bentley Systems (workday): HTTP 521
+- BlackRock (workday): HTTP 521
+- Blackstone (workday): HTTP 521
+- Boeing (workday): HTTP 521
+- Booz Allen Hamilton (workday): HTTP 521
+- Bristol Myers Squibb (workday): HTTP 521
+- Broadcom (workday): HTTP 521
+- Broadridge Financial Solutions (workday): HTTP 521
+- Brunswick Corporation (workday): HTTP 521
+- Burlington Stores (workday): HTTP 521
+- Cadence Design Systems (workday): HTTP 521
+- Cardinal Health (workday): HTTP 521
+- Carrier (workday): HTTP 521
+- Catalent (workday): HTTP 521
+- Cboe Global Markets (workday): HTTP 521
+- CDW (workday): HTTP 521
+- Cencora (workday): HTTP 521
+- Centene (workday): HTTP 521
+- Chevron (workday): HTTP 521
+- Chewy (workday): HTTP 521
+- Ciena (workday): HTTP 521
+- Cisco (workday): HTTP 521
+- Citi (workday): HTTP 521
+- Cloudera (workday): HTTP 521
+- CME Group (workday): HTTP 521
+- Columbia Sportswear (workday): HTTP 521
+- Conagra Brands (workday): HTTP 521
+- Convatec (workday): HTTP 521
+- Crate & Barrel Holdings (workday): HTTP 521
+- CrowdStrike (workday): HTTP 521
+- Cumming Group (workday): HTTP 521
+- Cushman & Wakefield (workday): HTTP 521
+- CVS Health (workday): HTTP 521
+- Danaher (workday): HTTP 521
+- Deckers Brands (workday): HTTP 521
+- Dexcom (workday): HTTP 521
+- Dick's Sporting Goods (workday): HTTP 521
+- Dollar Tree (workday): HTTP 521
+- Dow (workday): HTTP 521
+- Dow Jones (workday): HTTP 521
+- Duke Energy (workday): HTTP 521
+- DuPont (workday): HTTP 521
+- DXC Technology (workday): HTTP 521
+- eBay (workday): HTTP 521
+- Edwards Lifesciences (workday): HTTP 521
+- Elanco (workday): HTTP 521
+- Elevance Health (workday): HTTP 521
+- Entegris (workday): HTTP 521
+- Eversource Energy (workday): HTTP 521
+- F5 (workday): HTTP 521
+- Ferguson (workday): HTTP 521
+- Fidelity Investments (workday): HTTP 521
+- Fifth Third Bank (workday): HTTP 521
+- FIS (workday): HTTP 521
+- Fiserv (workday): HTTP 521
+- Flex Ltd. (workday): HTTP 521
+- FormFactor (workday): HTTP 521
+- Fox Corporation (workday): HTTP 521
+- Fractal Analytics (workday): HTTP 521
+- Gap Inc. (workday): HTTP 521
+- Gartner (workday): HTTP 521
+- GE HealthCare (workday): HTTP 521
+- GE Vernova (workday): HTTP 521
+- Generac (workday): HTTP 521
+- General Dynamics Information Technology (workday): HTTP 521
+- General Mills (workday): HTTP 521
+- General Motors (workday): HTTP 521
+- Genesys (workday): HTTP 521
+- Gilead Sciences (workday): HTTP 521
+- GlobalFoundries (workday): HTTP 521
+- Greif (workday): HTTP 521
+- GSK (workday): HTTP 521
+- Hewlett Packard Enterprise (workday): HTTP 521
+- HP Inc. (workday): HTTP 521
+- Humana (workday): HTTP 521
+- Huntsman (workday): HTTP 521
+- Huron (workday): HTTP 521
+- Ingram Micro (workday): HTTP 521
+- Insulet (workday): HTTP 521
+- Integer Holdings (workday): HTTP 521
+- Intel (workday): HTTP 521
+- IQVIA (workday): HTTP 521
+- Iron Mountain (workday): HTTP 521
+- Itron (workday): HTTP 521
+- Jabil (workday): HTTP 521
+- JLL (workday): HTTP 521
+- Johnson Controls (workday): HTTP 521
+- KeyBank (workday): HTTP 521
+- Kimberly-Clark (workday): HTTP 521
+- KLA (workday): HTTP 521
+- Kyndryl (workday): HTTP 521
+- Labcorp (workday): HTTP 521
+- Lamb Weston (workday): HTTP 521
+- Lattice Semiconductor (workday): HTTP 521
+- Leidos (workday): HTTP 521
+- Levi Strauss & Co. (workday): HTTP 521
+- Logitech (workday): HTTP 521
+- LPL Financial (workday): HTTP 521
+- Lumentum (workday): HTTP 521
+- M&T Bank (workday): HTTP 521
+- Marathon Petroleum (workday): HTTP 521
+- Marvell Technology (workday): HTTP 521
+- Mastercard (workday): HTTP 521
+- Medline (workday): HTTP 521
+- Medtronic (workday): HTTP 521
+- Merck & Co. (workday): HTTP 521
+- Microchip Technology (workday): HTTP 521
+- Micron Technology (workday): HTTP 521
+- Microsoft (microsoft): HTTP 429
+- MKS Inc. (workday): HTTP 521
+- Moderna (workday): HTTP 521
+- Morgan Stanley (workday): HTTP 521
+- Motorola Solutions (workday): HTTP 521
+- Nationwide (workday): HTTP 521
+- NCR Voyix (workday): HTTP 521
+- New Balance (workday): HTTP 521
+- Nexstar Media Group (workday): HTTP 521
+- Nike (workday): HTTP 521
+- NiSource (workday): HTTP 521
+- Nordic Consulting (workday): HTTP 521
+- Northrop Grumman (workday): HTTP 521
+- Nvidia (workday): HTTP 521
+- Omnicom (workday): HTTP 521
+- ONEOK (workday): HTTP 521
+- Onto Innovation (workday): HTTP 521
+- Organon (workday): HTTP 521
+- Pacific Life (workday): HTTP 521
+- Palo Alto Networks (workday): HTTP 521
+- PayPal (workday): HTTP 521
+- Pfizer (workday): HTTP 521
+- Plains All American (workday): HTTP 521
+- PNC (workday): HTTP 521
+- Procter & Gamble (workday): HTTP 521
+- Proofpoint (workday): HTTP 521
+- Protiviti (workday): HTTP 521
+- Prudential Financial (workday): HTTP 521
+- PTC (workday): HTTP 521
+- PVH (workday): HTTP 521
+- QTS Data Centers (workday): HTTP 521
+- Raymond James (workday): HTTP 521
+- Red Hat (workday): HTTP 521
+- Regal Rexnord (workday): HTTP 521
+- Regeneron (workday): HTTP 521
+- Remitly (workday): HTTP 521
+- Republic Services (workday): HTTP 521
+- Robert Half (workday): HTTP 521
+- Rockwell Automation (workday): HTTP 521
+- RSM US (workday): HTTP 521
+- RTX (workday): HTTP 521
+- Ryder System (workday): HTTP 521
+- S&P Global (workday): HTTP 521
+- SailPoint (workday): HTTP 521
+- Saputo (workday): HTTP 521
+- ScottsMiracle-Gro (workday): HTTP 521
+- Semtech (workday): HTTP 521
+- ServiceTitan (workday): HTTP 521
+- SiFive (workday): HTTP 521
+- Skechers (workday): HTTP 521
+- Snap (workday): HTTP 521
+- Solenis (workday): HTTP 521
+- Sony Pictures Entertainment (workday): HTTP 521
+- SS&C Technologies (workday): HTTP 521
+- Stanley Black & Decker (workday): HTTP 521
+- State Street (workday): HTTP 521
+- Stryker (workday): HTTP 521
+- Synchrony (workday): HTTP 521
+- Synechron (workday): HTTP 521
+- Sysco (workday): HTTP 521
+- T-Mobile (workday): HTTP 521
+- T. Rowe Price (workday): HTTP 521
+- Target (workday): HTTP 521
+- TD SYNNEX (workday): HTTP 521
+- TelevisaUnivision (workday): HTTP 521
+- The Cigna Group (workday): HTTP 521
+- The Clorox Company (workday): HTTP 521
+- The Coca-Cola Company (workday): HTTP 521
+- Thermo Fisher Scientific (workday): HTTP 521
+- Thomson Reuters (workday): HTTP 521
+- TJX Companies (workday): HTTP 521
+- Transamerica (workday): HTTP 521
+- TransUnion (workday): HTTP 521
+- Trellix (workday): HTTP 521
+- Trimble (workday): HTTP 521
+- Truist (workday): HTTP 521
+- Tyson Foods (workday): HTTP 521
+- U.S. Bank (workday): HTTP 521
+- USAA (workday): HTTP 521
+- VF Corporation (workday): HTTP 521
+- Viatris (workday): HTTP 521
+- Vistra (workday): HTTP 521
+- Warner Bros. Discovery (workday): HTTP 521
+- Wells Fargo (workday): HTTP 521
+- Workday (workday): HTTP 521
+- Xcel Energy (workday): HTTP 521
+- Yahoo (workday): HTTP 521
+- Zayo Group (workday): HTTP 521
+- Zillow (workday): HTTP 521
+- Zoetis (workday): HTTP 521
+
+**Read fine but under 20 US jobs (3)**
+- Dropbox (greenhouse): 18 US of 44 read · other locations: Remote - Mexico / Remote - Japan / Remote - Ireland; Remote - United Kingdom / Remote - Poland / Remote - Canada: Select locations / Remote - Ireland
+- Kohl's (workday): 10 US of 200 read · other locations: Macedonia (0235) / Ukiah (1383) / Southern Pines (1431) / Kohl's Corporate Offices (0900) / State College (0971) / Woodridge (0064)
+- PwC (workday): 11 US of 200 read · other locations: Lima / Barueri / Buenos Aires / São Paulo / Toronto / Montreal
+
+**A response slower than 9s (1)**
+- Apple (applehtml): 11.5s

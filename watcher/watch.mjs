@@ -19,7 +19,9 @@ const TITLE = rx(CFG.titleRegex), BROAD = rx(CFG.broadTitleRegex), TITLE_NO = rx
 const LOC = rx(CFG.locationRegex), DROP = rx(CFG.dropRegex);
 // skip: [{companies: [...], titleRegex}] = titles to ignore at those companies only (e.g. senior technical titles at big tech).
 const SKIP = (CFG.skip || []).map(r => ({ cos: new Set(r.companies.map(s => s.toLowerCase())), re: rx(r.titleRegex) }));
-const EXCLUDE = new Set((CFG.excludeCompanies || []).map(s => s.toLowerCase()));
+const EXCLUDE = new Set((CFG.excludeCompanies || []).map(s => s.toLowerCase()));   // names plus their other names (AWS for Amazon)
+// relocation "flag": a target title elsewhere in the US is kept for the morning run (location "other", never a phone alert).
+const RELOCATE = CFG.relocation === 'flag';
 const ONLY = CFG.companies?.length ? new Set(CFG.companies.map(s => s.toLowerCase())) : null; // empty = whole catalog
 const unknownLoc = l => !String(l || '').trim() || /^\s*(remote|\d+ locations)\s*$/i.test(l);
 
@@ -68,7 +70,7 @@ for (const j of scan.jobs) {
   if (!(strong || broad) || (TITLE_NO && TITLE_NO.test(j.title)) || (DROP && DROP.test(j.title))) continue;
   if (SKIP.some(r => r.cos.has(co) && r.re.test(j.title))) continue;
   const where = unknownLoc(j.loc) ? 'unknown' : (!LOC || LOC.test(j.loc) ? 'match' : 'other');
-  if (where === 'other') continue;
+  if (where === 'other' && (!RELOCATE || broad)) continue;   // relocation keeps target titles only, not adjacent ones
   state.seen[j.key] = today;
   // Quiet (recorded, no alert): the first run, a company new to the catalog, or a job the scanner has known for
   // over 2 days (it only matches now because the profile changed).
@@ -84,8 +86,8 @@ for (const j of scan.jobs) {
 for (const j of scan.jobs) state.companies[j.company] = true;
 state.engineSeeded = true;
 
-// Adjacent titles and unknown locations are saved for the morning run, which reads the full job text.
-// Clear title matches in the user's locations are alerted now.
+// Adjacent titles, unknown locations and (with relocation on) other US locations are saved for the morning run,
+// which reads the full job text. Only clear title matches in the user's own places are alerted now.
 const alertNow = matches.filter(m => m.kind === 'title' && m.location === 'match');
 found.push(...matches);
 state.pending.push(...alertNow);

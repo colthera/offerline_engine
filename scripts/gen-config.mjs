@@ -55,9 +55,13 @@ const config = {
   dashboardUrl: P.dashboardUrl || '',
   paused: !!P.paused,
   titleRegex, broadTitleRegex, titleExcludeRegex, dropRegex, locationRegex,
-  excludeCompanies: P.excludeCompanies || [],
+  // Excluded companies plus their other names: {"Amazon": ["AWS", "Amazon Web Services"]} also blocks those.
+  excludeCompanies: [...new Set((P.excludeCompanies || []).flatMap(c => [c, ...((P.companyAliases || {})[c] || [])]))],
   companies: P.onlyCompanies || [],
-  skip: P.skip || [],
+  // Skip rules: titles to ignore at certain companies only. Plain words ({companies, titles}) or a raw pattern carried over from v2.
+  skip: (P.skip || []).map(r => ({ companies: r.companies || [], titleRegex: r.titleRegex || words(r.titles) })).filter(r => r.companies.length && r.titleRegex),
+  // "flag" = also keep target titles (not adjacent ones) elsewhere in the US, scored and flagged for relocation (no phone alert).
+  relocation: P.relocation === 'flag' ? 'flag' : 'drop',
   needsSponsorship: !!P.needsSponsorship,
   fit: {
     core: [...themes.entries()].slice(0, 14),
@@ -68,6 +72,7 @@ const config = {
   },
 };
 for (const k of ['titleRegex', 'broadTitleRegex', 'titleExcludeRegex', 'dropRegex', 'locationRegex']) if (config[k]) new RegExp(config[k], 'i'); // fail loudly on a bad pattern
+for (const r of config.skip) new RegExp(r.titleRegex, 'i');
 
 if (flag === '--cron') {
   // UTC hours covering activeFrom..activeUntil local time, at today's offset (shifts an hour when clocks change).

@@ -22,8 +22,9 @@ if (!custom && P.families?.length && !chosen.length) throw new Error(`None of ${
 if (!chosen.length && !(P.extraTitles || []).length) throw new Error('No titles: choose a job family or add extraTitles');
 
 // Titles: the families' patterns plus anything the user typed. Adjacent titles are judged on the job text later.
-const titleRegex = join(...chosen.map(f => f.titleRegex), words(P.extraTitles));
-const broadTitleRegex = P.adjacentOff ? '' : join(...chosen.map(f => f.broadTitleRegex), words(P.adjacentTitles));
+// extraTitleRegex / extraBroadRegex: raw patterns carried over from a v2 watcher, so a migration loses nothing.
+const titleRegex = join(...chosen.map(f => f.titleRegex), words(P.extraTitles), P.extraTitleRegex || '');
+const broadTitleRegex = P.adjacentOff ? '' : join(...chosen.map(f => f.broadTitleRegex), words(P.adjacentTitles), P.extraBroadRegex || '');
 const titleExcludeRegex = join(pack.titleExcludeRegex, words(P.excludeTitleWords));
 // Seniority the user doesn't want (e.g. "Director") becomes a title drop, using the pack's seniority patterns.
 const dropRegex = join(...(P.excludeSeniority || []).map(s => pack.seniorityRegex?.[s]).filter(Boolean), words(P.excludeTitlePhrases), P.extraDropRegex || '');   // extraDropRegex: a raw pattern carried over from an older setup

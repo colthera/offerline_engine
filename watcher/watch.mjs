@@ -61,6 +61,8 @@ if (ageHours > 3 && awake && state.warned.stale !== today) {
 
 // 2. Keep new jobs that match this profile.
 const firstRun = !state.engineSeeded;           // first run on the shared scan: record everything silently
+// The first run with relocation on records the existing roles elsewhere quietly (a backlog, not news).
+const relocFirst = RELOCATE && !state.relocationOn;
 const matches = [];
 for (const j of scan.jobs) {
   const co = j.company.toLowerCase();
@@ -75,7 +77,7 @@ for (const j of scan.jobs) {
   // Quiet (recorded, no alert): the first run, a company new to the catalog, or a job the scanner has known for
   // over 2 days (it only matches now because the profile changed).
   const old = j.firstSeen && Date.now() - Date.parse(j.firstSeen) > 48 * 36e5;
-  const quiet = firstRun || !state.companies[j.company] || old;
+  const quiet = firstRun || !state.companies[j.company] || old || (where === 'other' && relocFirst);
   const entry = { key: j.key, company: j.company, title: j.title, loc: j.loc, url: j.url, posted: j.posted, foundAt: today,
     kind: broad ? 'adjacent' : 'title', location: where };
   // On the first run, jobs first seen in the last 7 days still go to found.json (no alert): setup scores them.
@@ -85,6 +87,7 @@ for (const j of scan.jobs) {
 }
 for (const j of scan.jobs) state.companies[j.company] = true;
 state.engineSeeded = true;
+state.relocationOn = RELOCATE;
 
 // Adjacent titles, unknown locations and (with relocation on) other US locations are saved for the morning run,
 // which reads the full job text. Only clear title matches in the user's own places are alerted now.

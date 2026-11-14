@@ -31,13 +31,15 @@ const dropRegex = join(...(P.excludeSeniority || []).map(s => pack.seniorityRege
 
 // Locations: the scan is US-only already, so "anywhere in the US" means no location filter at all.
 const L = P.locations || {};
+// A city matches as a whole word; a bare two-letter entry (a state code split off a city) is ignored, not matched as text.
 const city = c => esc(String(c).split(',')[0]);
+const cityList = list => (list || []).filter(c => !/^\s*[a-z]{2}\s*$/i.test(c)).map(c => `\\b${city(c)}\\b`);
 // Whole states: "Washington" matches "Seattle, WA", "WA - Redmond", "Washington State", but not "Washington, DC".
 const STATES = { alabama: 'AL', alaska: 'AK', arizona: 'AZ', arkansas: 'AR', california: 'CA', colorado: 'CO', connecticut: 'CT', delaware: 'DE', florida: 'FL', georgia: 'GA', hawaii: 'HI', idaho: 'ID', illinois: 'IL', indiana: 'IN', iowa: 'IA', kansas: 'KS', kentucky: 'KY', louisiana: 'LA', maine: 'ME', maryland: 'MD', massachusetts: 'MA', michigan: 'MI', minnesota: 'MN', mississippi: 'MS', missouri: 'MO', montana: 'MT', nebraska: 'NE', nevada: 'NV', 'new hampshire': 'NH', 'new jersey': 'NJ', 'new mexico': 'NM', 'new york': 'NY', 'north carolina': 'NC', 'north dakota': 'ND', ohio: 'OH', oklahoma: 'OK', oregon: 'OR', pennsylvania: 'PA', 'rhode island': 'RI', 'south carolina': 'SC', 'south dakota': 'SD', tennessee: 'TN', texas: 'TX', utah: 'UT', vermont: 'VT', virginia: 'VA', washington: 'WA', 'west virginia': 'WV', wisconsin: 'WI', wyoming: 'WY' };
 const statePat = name => { const n = String(name).trim().toLowerCase().replace(/\s+state$/, ''), ab = STATES[n]; if (!ab) throw new Error(`Unknown US state: ${name}`);
   const full = n === 'washington' ? '\\bwashington\\b(?!,?\\s*d\\.?\\s*c)' : n === 'virginia' ? '(?<!west )\\bvirginia\\b' : `\\b${esc(n)}\\b`;
   return `${full}|,\\s*${ab}\\b|\\b${ab}\\s*[-,]|\\bUS-${ab}\\b`; };
-const locationRegex = L.anywhereUS ? '' : join(...(L.cities || []).map(city), ...(L.states || []).map(statePat), L.remote ? 'remote' : '', L.remote ? '^\\s*(united states|usa|us)\\s*$' : '', L.includeMultiLocation ? '\\d+\\s+locations' : '');
+const locationRegex = L.anywhereUS ? '' : join(...cityList(L.cities), ...(L.states || []).map(statePat), L.remote ? 'remote' : '', L.remote ? '^\\s*(united states|usa|us)\\s*$' : '', L.includeMultiLocation ? '\\d+\\s+locations' : '');
 // A posting whose only location is "United States" is usually remote or open to any US city, so it counts with remote.
 
 // Fit check: themes from the chosen families (deduplicated) plus the user's own, and their knockouts.
@@ -67,7 +69,7 @@ const config = {
     core: [...themes.entries()].slice(0, 14),
     knockouts: (P.knockouts || []).map(([w, penalty, label]) => [Array.isArray(w) ? w.map(esc).join('|') : esc(w), penalty ?? 20, label || String(w)]),
     targetCompanies: (P.targetCompanies || []).map(esc).join('|'),
-    homeLocations: join(...(L.cities || []).map(city), L.remote ? 'remote' : ''),
+    homeLocations: join(...cityList(L.cities), L.remote ? 'remote' : ''),
     maxYears: P.maxYears ?? 12,
   },
 };

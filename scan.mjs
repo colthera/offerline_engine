@@ -7,7 +7,9 @@ import { AsyncLocalStorage } from 'node:async_hooks';
 const ctx = new AsyncLocalStorage();   // per-board request count and slowest single response
 
 const CATALOG = JSON.parse(fs.readFileSync('catalog.json', 'utf8'));
-const PREV = fs.existsSync('prev/jobs.json') ? JSON.parse(fs.readFileSync('prev/jobs.json', 'utf8')) : { jobs: [] };
+// Read last scan's files; a missing, empty or broken file counts as "nothing yet" instead of stopping the scan.
+const readPrev = (f, empty) => { try { const t = fs.readFileSync('prev/' + f, 'utf8'); return t.trim() ? JSON.parse(t) : empty; } catch { return empty; } };
+const PREV = readPrev('jobs.json', { jobs: [] });
 const firstSeen = new Map(PREV.jobs.map(j => [j.key, j.firstSeen]));
 const NOW = new Date().toISOString();
 const SET = JSON.parse(fs.readFileSync('settings.json', 'utf8'));
@@ -214,7 +216,7 @@ const localParts = d => { const f = new Intl.DateTimeFormat('en-US', { timeZone:
   const g = t => f.find(x => x.type === t).value; return { hour: +g('hour'), wd: g('weekday'), day: `${g('year')}-${g('month')}-${g('day')}` }; };
 const nowL = localParts(new Date(NOW));
 const busyScan = nowL.hour >= BW.startHour && nowL.hour < BW.endHour && (!BW.weekdaysOnly || !['Sat', 'Sun'].includes(nowL.wd));
-const hist = fs.existsSync('prev/board-history.json') ? JSON.parse(fs.readFileSync('prev/board-history.json', 'utf8')) : {};
+const hist = readPrev('board-history.json', {});
 const keepAfter = Date.now() - (SET.historyDays || 7) * 864e5;
 for (const h of health) {
   const rows = (hist[h.name] || []).filter(r => Date.parse(r.t) > keepAfter);
